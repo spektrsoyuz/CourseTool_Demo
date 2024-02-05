@@ -21,5 +21,7 @@ grad_catalog = [
 
 if __name__ == '__main__':
     # Run the script to fetch and parse course data
-    courseData = course_funcs.getCourseData('summer24_undergrad', undergrad_catalog, undergrad, True, True)
-    courseData2 = course_funcs.getCourseData('summer24_grad', grad_catalog, grad, True, True)
+    courseData = course_funcs.getCourseData('summer24', 'undergrad', undergrad_catalog, undergrad, True, False)
+
+    # Get ME Electives from term
+    me_electives = course_funcs.getMEElectives('summer24_undergrad.json', True, 'Exports/summer24_MECHELV.json')
