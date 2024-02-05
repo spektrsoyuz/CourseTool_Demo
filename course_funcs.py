@@ -12,6 +12,12 @@ from bs4 import BeautifulSoup, MarkupResemblesLocatorWarning
 
 warnings.filterwarnings("ignore", category=MarkupResemblesLocatorWarning)
 
+cfilter = ['COMM', 'ECON', 'BUSN', 'MGMT', 'HIST', 'HUMN', 'CILE', 'LA', 'LIT', 'PHIL', 'SSCI', '212', '231',
+           'MECH-231L', 'EE-212', 'MECH-300', 'MECH-307', 'MECH-310', 'MECH-312', 'MECH-320', 'MECH-322',
+           'MECH-330', 'MECH-331', 'MECH-420', 'MECH-422', 'MECH-430', 'MECH-431']
+
+cafilter = ['BUSN-303', 'BUSN-304', 'MGMT-310', 'MGMT-419', 'MGMT-546', 'MECH-448', 'MECH-495']
+
 
 # -------------------------------------------------- functions ---------------------------------------------------------
 
@@ -26,22 +32,20 @@ def strip_html(html_text):
     return plain_text
 
 
-def getCourseData(term, level, catalog, catalog_url, exportJSON, includeAll):
+def getCourseData(csvFile, catalog, catalogURL, includeAll):
     """
     Function to parse through Kettering Courses A-Z and the Kettering
     Argos Class Schedule to create a dictionary containing available courses
     for a given term.
-    :param term: Specified school term      'winter24', 'spring23', etc.
-    :param level: Specified school level    'undergrad', 'grad', etc.
+    :param csvFile: Specified csv file from Argos
     :param catalog: List of acceptable course tags
-    :param catalog_url: URL to the course catalog (undergrad/grad)
-    :param exportJSON: Should the function export a json file containing the courses?
+    :param catalogURL: URL to the course catalog (undergrad/grad)
     :param includeAll: Should the function include courses with no sections?
     :return: Dictionary containing list of available courses
     """
     courseList = {}  # Dictionary to store course information
     try:
-        df = pd.read_csv(f'{term}_{level}.csv')  # Read course data from a CSV file
+        df = pd.read_csv(csvFile)  # Read course data from a CSV file
     except FileNotFoundError as e:
         print(e)
         exit(1)
@@ -54,7 +58,7 @@ def getCourseData(term, level, catalog, catalog_url, exportJSON, includeAll):
             courses = {}
 
             print(f'Parsing data for {cat}')
-            url = f'{catalog_url}{cat.lower()}/'
+            url = f'{catalogURL}{cat.lower()}/'
             req = requests.get(url)
             htmlData = req.content
             parsedData = BeautifulSoup(htmlData, "html.parser")
@@ -116,13 +120,6 @@ def getCourseData(term, level, catalog, catalog_url, exportJSON, includeAll):
             # Add course dictionary to final course list
             courseList[cat] = courses
 
-    # Save the parsed course information in a JSON file
-    if exportJSON:
-        filename = f'Exports/{term}_{level}.json'
-        with open(filename, 'w', encoding='utf-8') as file:
-            json.dump(courseList, file, ensure_ascii=False, indent=2)
-        print(f'Saved courses to {filename}.')
-
     return courseList
 
 
@@ -168,21 +165,13 @@ def getSections(df, course):
     return sections
 
 
-def getMEElectives(filename, exportJSON, exportLoc):
+def getMEElectives(filename):
     """
     Function to return a dictionary containing all course eligible as ME Electives
-    :param filename: Dictionary containing all courses
-    :param exportJSON: Should the function export a json file with all the electives?
-    :param exportLoc: Location of json file export
+    :param filename: Name of the json file containing all courses
     :return: Dictionary containing all ME Elective options
     """
     electives = {}
-
-    cfilter = ['COMM', 'ECON', 'BUSN', 'MGMT', 'HIST', 'HUMN', 'CILE', 'LA', 'LIT', 'PHIL', 'SSCI', '212', '231',
-               'MECH-231L', 'EE-212', 'MECH-300', 'MECH-307', 'MECH-310', 'MECH-312', 'MECH-320', 'MECH-322',
-               'MECH-330', 'MECH-331', 'MECH-420', 'MECH-422', 'MECH-430', 'MECH-431']
-
-    cafilter = ['BUSN-303', 'BUSN-304', 'MGMT-310', 'MGMT-419', 'MGMT-546', 'MECH-448', 'MECH-495']
 
     with open(filename, 'r', encoding="utf8") as file:
         courses = json.load(file)
@@ -210,9 +199,23 @@ def getMEElectives(filename, exportJSON, exportLoc):
 
         electives[tag] = courseblock
 
-    if exportJSON:
-        with open(exportLoc, 'w', encoding='utf-8') as file:
-            json.dump(electives, file, ensure_ascii=False, indent=2)
-        print(f'Saved courses to {exportLoc}.')
-
     return electives
+
+
+def exportCourses(courses, filetype, filename):
+    """
+    Function to export a dictionary of courses to a given file format
+    :param courses: Dictionary of courses to be exported
+    :param filetype: File format for the export
+    :param filename: Name and location of the export
+    :return: None
+    """
+    match filetype:
+        case 'json':
+            with open(filename, 'w', encoding='utf-8') as file:
+                json.dump(courses, file, ensure_ascii=False, indent=2)
+        case _:
+            with open(filename, 'w', encoding='utf-8') as file:
+                json.dump(courses, file, ensure_ascii=False, indent=2)
+
+    print(f'Exported courses to {filename}.')
