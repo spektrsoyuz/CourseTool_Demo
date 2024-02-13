@@ -1,5 +1,5 @@
 """
-course_funcs.py
+course_functions.py
 Created by Seth Christie on 2/4/2024
 """
 
@@ -66,7 +66,11 @@ def getCourseData(csvFile, catalog, catalogURL, includeAll):
 
             print(f'Parsing data for {cat}')
             url = f'{catalogURL}{cat.lower()}/'
-            req = requests.get(url)
+            try:
+                req = requests.get(url)
+            except ConnectionError as e:
+                print(e)
+                exit(1)
             htmlData = req.content
             parsedData = BeautifulSoup(htmlData, "html.parser")
 
@@ -232,7 +236,6 @@ def dictToDf(courses):
                     courses[subject][courseblock]['sections'][section]['room'],  # room
                     courses[subject][courseblock]['sections'][section]['avail'],  # avail
                 ])
-
     return StyleFrame(pd.DataFrame(data, columns=heads))
 
 
