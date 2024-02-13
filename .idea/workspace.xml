@@ -4,13 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c71ed804-81d7-4349-bb7a-f8680aaac17a" name="Changes" comment="added dictToDf(), support for xlsx/yaml exports">
+    <list default="true" id="c71ed804-81d7-4349-bb7a-f8680aaac17a" name="Changes" comment="added classes for tkinter, cleaned up main.py">
+      <change afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Exports/s24_grad.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/Exports/s24_grad.xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Exports/s24_mechelv.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/Exports/s24_mechelv.xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Exports/s24_undergrad.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/Exports/s24_undergrad.xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/course_funcs.py" beforeDir="false" afterPath="$PROJECT_DIR$/course_functions.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -157,7 +153,7 @@
       <workItem from="1707815631684" duration="604000" />
       <workItem from="1707816249959" duration="14000" />
       <workItem from="1707816271405" duration="62000" />
-      <workItem from="1707816343949" duration="764000" />
+      <workItem from="1707816343949" duration="993000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit">
       <option name="closed" value="true" />
@@ -215,7 +211,15 @@
       <option name="project" value="LOCAL" />
       <updated>1707809893693</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="added classes for tkinter, cleaned up main.py">
+      <option name="closed" value="true" />
+      <created>1707817145410</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1707817145410</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -247,7 +251,8 @@
     <MESSAGE value="added getMEElectives(), moved files to Exports subdir" />
     <MESSAGE value="added exportCourses(), cleaned up json export code" />
     <MESSAGE value="added dictToDf(), support for xlsx/yaml exports" />
-    <option name="LAST_COMMIT_MESSAGE" value="added dictToDf(), support for xlsx/yaml exports" />
+    <MESSAGE value="added classes for tkinter, cleaned up main.py" />
+    <option name="LAST_COMMIT_MESSAGE" value="added classes for tkinter, cleaned up main.py" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/CourseTool$main.coverage" NAME="main Coverage Results" MODIFIED="1707817099977" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />

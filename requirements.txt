@@ -1,0 +1,5 @@
+PyYAML~=6.0.1
+pandas~=2.2.0
+requests~=2.31.0
+beautifulsoup4~=4.12.3
+styleframe~=4.2
