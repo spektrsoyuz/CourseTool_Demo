@@ -1,0 +1,188 @@
+{
+  "BUSN": {
+    "BUSN-629": {
+      "tag": "BUSN-629",
+      "name": "Entrepreneurial Finance",
+      "coreqs": "None",
+      "prereqs": "FINC-619",
+      "standing": "Freshman",
+      "desc": "This is a course on financing startups and other small businesses. The objective is to provide students with an understanding of how financing from venture capital and private equity funds, as well as angel investors, finds its way to entrepreneurial ventures. The course follows a basic framework for study and analysis via the life cycle of an entrepreneurial venture consisting of (a) opportunity recognition, (b) valuation and terms of financing, (c) growing the entrepreneurial venture, and (d) harvesting the venture to create profits through Initial Public Offerings (IPOs) or a sale of the business. Students will examine the financial concepts, tools, and techniques for a successful entrepreneurial venture, with an emphasis on the financial management practices needed to secure financing and using business valuation models. Students may not receive credit for both BUSN-429 and BUSN-629.",
+      "sections": {},
+      "credits": "4"
+    }
+  },
+  "COMM": {
+    "COMM-601": {
+      "tag": "COMM-601",
+      "name": "Communicating about Data",
+      "coreqs": "None",
+      "prereqs": "None",
+      "standing": "Freshman",
+      "desc": "Visualizations are powerful. Theories of visual rhetoric and design teach us that good visualization is not only clear and accurate but appealing as well. When executed well, visualizations enhance oral or written communication, by supporting arguments and claims, b providing insight into complex issues, and by supporting recall and decision-making in audiences. This relationship goes both ways, however, even well-crafted visualizations must be supported by effective oral and written communication. In this course, students explore both sides of this relationship, becoming familiar with common genres of visualization and with techniques both for designing them effectively and ethically, and for presenting visualizations orally and in prose.",
+      "sections": {},
+      "credits": "4"
+    }
+  },
+  "CE": {
+    "CE-612": {
+      "tag": "CE-612",
+      "name": "Digital Systems Design",
+      "coreqs": "None",
+      "prereqs": "None",
+      "standing": "Freshman",
+      "desc": "The principles and practices used in the design of modern complex combinational and sequential digital systems are covered in this course. Digital logic design, analysis, simulation, and implementation techniques are covered. Fundamental algorithms underlying computer-aided design (CAD) tools are studied. Schematic diagrams, hardware description languages (HDL), and system-on-programmable chip (SoPC) design tools are used to specify designs targeted for implementation in technologies ranging from discrete ICs to programmable logic devices, ASICs and SoPCs. Topics in testing of logic circuits and hardware-software co-design will be covered. The course is accompanied by laboratory component that allows students to exercise the principles and practices learned.",
+      "sections": {},
+      "credits": "4"
+    },
+    "CE-620": {
+      "tag": "CE-620",
+      "name": "Microcomputer Systems",
+      "coreqs": "None",
+      "prereqs": "None",
+      "standing": "Freshman",
+      "desc": "The architectural features, design principles, development tools and techniques of advanced embedded microcomputers are covered in this advanced level course. The topics include architectures of contemporary 16-bit and 32-bit RISC microcontrollers (considering Microchip PIC24 and PIC32 as example cases for the practical development experiences), instruction set, addressing modes, software development & debugging, parallel and serial interfacing, interrupts, timer module, ADC module, etc.; The course has a strong laboratory component, which will be carried out on a microcomputer development kit with the latest family of 16-bit and 32-bit microcontrollers. Students will also complete independent projects or research assigned by the instructor on topics such as low-power micro architectures and power-aware computing.",
+      "sections": {},
+      "credits": "4"
+    },
+    "CE-651": {
+      "tag": "CE-651",
+      "name": "Introduction to Autonomous Driving",
+      "coreqs": "None",
+      "prereqs": "None",
+      "standing": "Freshman",
+      "desc": "This course provides an overview of theoretical and practical background regarding the design and development of autonomous vehicles. Topics include an overview of autonomous vehicle systems, autonomous vehicle localization technologies, perception in autonomous driving, decision and planning, and control for autonomous driving. This course aims to cover the basics of autonomous driving through lectures, lab assignments, a term project, and readings on current related topics. CE-651 students will be required to complete additional projects or independent review of research topics with approval of the instructor. Students may not receive credit for both CE-451 and CE-651.",
+      "sections": {},
+      "credits": "4"
+    },
+    "CE-680": {
+      "tag": "CE-680",
+      "name": "Computer Networks",
+      "coreqs": "None",
+      "prereqs": "None",
+      "standing": "Freshman",
+      "desc": "Organization, analysis, and design of interconnected systems of computers are studied. Topics include the Open System Interconnection model and the Internet TCP/IP reference architecture. Standard protocols and technologies at each network layer will be covered, such as HTTP and a socket programming API at the application layer, TCP and UDP at the transport layer, and IPv4 and IPv6 along with fundamentals of routing at the network layer. Ethernet and Wi-Fi with their related physical mediums are discussed. The course will also introduce error detection and correction methods, basic network security principles and mobile technologies.Students are also required to complete a research project, to be determined and assigned with approval of the instructor. Students may not receive credit for both CE-480 and CE-680.",
+      "sections": {},
+      "credits": "4"
+    }
+  },
+  "CS": {
+    "CS-601": {
+      "tag": "CS-601",
+      "name": "Programming Methods for Data Science",
+      "coreqs": "None",
+      "prereqs": "None",
+      "standing": "Freshman",
+      "desc": "Introduction to computer science concepts and basic programming skills that are specifically geared toward data science, and forms a part of the introductory coursework for a Data Science & Data Analytics degree. Course emphasizes writing programs that are capable of retrieving and manipulating large amount of data. The first half of the course focuses on Python as a first programming language, while the second half of the course covers selected advanced topics such as data visualization, web scraping, database access and others.",
+      "sections": {},
+      "credits": "4"
+    },
+    "CS-641": {
+      "tag": "CS-641",
+      "name": "Foundations of Data Science",
+      "coreqs": "None",
+      "prereqs": "CS-601",
+      "standing": "Freshman",
+      "desc": "The concepts, principles, issues and techniques for big data and cloud computing are introduced in this course. This course will provide a foundation in data science based on data curation and statistical analysis. The primary goal of this course is to introduce data analysis concepts and techniques that facilitate making decisions from a rich data set. Students will investigate big data concepts, metadata creation, interpretation, and basics of information visualization. Students may not receive credit for both CS-441 and CS-641.",
+      "sections": {},
+      "credits": "4"
+    }
+  },
+  "EE": {
+    "EE-646": {
+      "tag": "EE-646",
+      "name": "Vector Control of AC Electric Machines",
+      "coreqs": "None",
+      "prereqs": "None",
+      "standing": "Freshman",
+      "desc": "Methods of controlling electric machines and their applications in electric vehicles are discussed. Topics include the theory of permanent-magnet and induction machines; coordinate-frame transformations; analysis and tuning of torque and speed control systems; modeling and dynamics of electric drives and vehicles, power-electronic devices, power-electronic circuits and switching schemes; rotor-flux oriented vector control; regenerative braking; and rotor-flux position-sensing methods. Machine and vehicle models will be developed using MATLAB Simulink. A low-voltage permanent-magnet machine and power-electronic inverter will be analyzed and tested. Students are also required to complete a research project, to be determined and assigned with approval of the instructor. Students may not receive credit for both EE-446 and EE-646.",
+      "sections": {},
+      "credits": "4"
+    }
+  },
+  "IME": {
+    "IME-608": {
+      "tag": "IME-608",
+      "name": "Industrial Robotics",
+      "coreqs": "None",
+      "prereqs": "None",
+      "standing": "Freshman",
+      "desc": "Basic concepts of robotic system theory and applications are presented. Human and robotic system interface with diverse real environments are discussed. Human and robotic safety is stressed. Advantages, limitations, business case justifications of investment and benefits of robotic systems for LEAN and quality operations are emphasized. Flexible manufacturing operations, Work cell design, cycle time, work path, end-effectors, collaborative robots are covered. Robotic computer model simulation is included in the course. Hands on Labs are included. Graduate students analyze more in-depth applications of robotic systems, simulations and current industry applications. Students may not receive credit for both IME-408 and IME-608.",
+      "sections": {},
+      "credits": "4"
+    },
+    "IME-622": {
+      "tag": "IME-622",
+      "name": "Simulation",
+      "coreqs": "None",
+      "prereqs": "None",
+      "standing": "Freshman",
+      "desc": "An understanding and need for simulation in practice will be developed. The course will focus on basic and advanced concepts in simulation including comparing the simulated results with analytical results, and successfully develop simulation models useful in production/manufacturing, supply chains, transportation, and other areas related to Industrial and Manufacturing Engineering. Simulation package such as ARENA will be integrated and used throughout the course. Graduate students will create advanced digital simulation models. Students may not receive credit for both IME-422 and IME-622.",
+      "sections": {},
+      "credits": "4"
+    },
+    "IME-665": {
+      "tag": "IME-665",
+      "name": "Human-Computer Interaction and Interface Design",
+      "coreqs": "None",
+      "prereqs": "None",
+      "standing": "Freshman",
+      "desc": "New technology is increasingly being integrated into our minute-to-minute lives. This multidisciplinary course provides theoretical and practical skills that are needed to design, develop, and evaluate human interaction with computer and machine interfaces and virtual environments. Course topics are anchored around fundamentals of physical and cognitive human capabilities and their relationship to product design and testing. Example topics include human psychological and physical capabilities, cognition and models of interaction, heuristic evaluation. Rapid prototyping, usability testing, experimental evaluation of input devices and peripherals, haptics, virtual and augmented reality, and brain interfaces.  Topics are reinforced through readings, guest lectures, hands-on experimentation and evaluation, current research trends, and a term design project. Graduate students will supplement course content by investigating and presenting late-breaking research findings and trends in the area of new technology HCI/HMI design. Students may not receive credit for both IME-465 and IME-665.",
+      "sections": {},
+      "credits": "4"
+    },
+    "IME-671": {
+      "tag": "IME-671",
+      "name": "Quality Assurance",
+      "coreqs": "None",
+      "prereqs": "None",
+      "standing": "Freshman",
+      "desc": "The basics of modern methods of quality control and improvement that are used in the manufacturing and service industries are covered in this course. It includes quality philosophy and fundamentals, statistical methods of quality improvement, concept of variation and its reduction, statistical process control, acceptance sampling, designed experiments in quality improvements, and quality in the service sector. Deming’s quality concepts will also be discussed. Graduate students will research additional industry-current quality methods. Students may not receive credit for both IME-471 and IME-671.",
+      "sections": {},
+      "credits": "4"
+    }
+  },
+  "MGMT": {
+    "MGMT-619": {
+      "tag": "MGMT-619",
+      "name": "Project Management",
+      "coreqs": "None",
+      "prereqs": "ACCT-518 or MGMT-510",
+      "standing": "Freshman",
+      "desc": "This course covers managing projects within an organizational context, including the processes related to initiating, planning, executing, controlling, reporting, and closing a project. Concepts such as project integration, scope, time, cost, quality control, and risk management are highlighted. Identifying project champions, working with user teams, training, and documentation are key concepts of project management that are detailed in the course.",
+      "sections": {},
+      "credits": "4"
+    },
+    "MGMT-624": {
+      "tag": "MGMT-624",
+      "name": "Data Visualization",
+      "coreqs": "None",
+      "prereqs": "CS-601",
+      "standing": "Freshman",
+      "desc": "This course encompasses the principles, techniques, aesthetics, and applications of data visualization. Starting with development of the basics of computer programming for visualization, the students learn methods to develop effective univariate, multivariate, and high dimensional data visualizations. The course also covers geographic and text-based visualization techniques. The course uses the highly demanded Python-based packages: Matplotlib, Seaborn, and Plotly. Students will also develop skills in using the grammar of graphics approach encapsulated in ggplot. Students may not receive credit for both MGMT-424 and MGMT-624.",
+      "sections": {},
+      "credits": "4"
+    },
+    "MGMT-679": {
+      "tag": "MGMT-679",
+      "name": "Leadership",
+      "coreqs": "None",
+      "prereqs": "None",
+      "standing": "Freshman",
+      "desc": "A comprehensive examination of different leadership theories and models along with leadership development with emphasis on relevant empirical evidence and application of these constructs to case studies that involve leadership and group functioning. Additionally, process of decision-making in a variety of leadership settings will be introduced, including the processes of leading independently or with direct authority. The distinction between leadership and management, crucial role of leadership when managing groups and teams, and the importance of ethical conduct and persuasion in effective leadership are covered. This course cannot be repeated to earn credits for both MGMT-479 and MGMT-679 and there will be different course requirements for undergraduate and graduate levels.",
+      "sections": {},
+      "credits": "4"
+    }
+  },
+  "MECH": {
+    "MECH-682": {
+      "tag": "MECH-682",
+      "name": "Mechanics and Design Simulation of Fiber-Reinforced Composite Materials",
+      "coreqs": "None",
+      "prereqs": "None",
+      "standing": "Freshman",
+      "desc": "The properties, mechanics, and design simulation aspects of fiber-reinforced composite materials are covered in this course. Topics include: constituents and interfacial bonding, microstructure and micromechanics, theory of anisotropy, classical laminate theory, material characterization, failure and damage, manufacturing techniques, composite structure design, and introduction of nanocomposite.",
+      "sections": {},
+      "credits": "4"
+    }
+  }
+}

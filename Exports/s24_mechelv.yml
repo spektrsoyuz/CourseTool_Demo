@@ -1,0 +1,1405 @@
+BIOL:
+  BIOL-494:
+    coreqs: None
+    credits: '4'
+    desc: A capstone course where students design, execute, analyze and report the
+      results of original research in collaboration with a faculty member. Students
+      are required to give a formal presentation of their findings.
+    name: Research Methods
+    prereqs: BIOL-381 and BIOL-382
+    sections:
+      '01':
+        avail: 4
+        building: MC
+        date: R
+        instructor: STAFF
+        room: '3222'
+        time: 8:00-12:20pm
+    standing: Freshman
+    tag: BIOL-494
+BUSN:
+  BUSN-303:
+    coreqs: None
+    credits: '4'
+    desc: 'The development of an innovative product, service or delivery method into
+      a feasible business model will be the focus of this course. Students will identify
+      a particular customer need that can be met with a novel approach using a combination
+      of resources, including technology, marketing or financial acumen. Student teams
+      will develop a business plan and stakeholder/investor presentation suitable
+      for actual funding in one of the following areas: New Venture Entrepreneurship,
+      Social Entrepreneurship or Intrapreneurship.'
+    name: 'New Venture Creation: Entrepreneurship'
+    prereqs: None
+    sections:
+      '01':
+        avail: 30
+        building: AB
+        date: T, F
+        instructor: Grether, John
+        room: '4301'
+        time: 10:15-12:20pm
+    standing: Sophomore
+    tag: BUSN-303
+CE:
+  CE-320:
+    coreqs: None
+    credits: '4'
+    desc: Principles of microcomputer hardware and software are presented. Topics
+      include instruction sets and addressing modes, structured assembly language
+      programming, topdown design, introductory machine architecture and its relationship
+      to programming, introduction to hardware in typical microcontrollers, and an
+      introduction to programming microcontrollers in C.
+    name: Intro to Microcomputers
+    prereqs: CE-210
+    sections:
+      '01':
+        avail: 16
+        building: AB
+        date: M, R
+        instructor: Park, Jungme
+        room: '2716'
+        time: 10:15-11:45am
+      02L:
+        avail: 16
+        building: AB
+        date: W
+        instructor: Park, Jungme
+        room: '2823'
+        time: 10:15-12:20pm
+    standing: Freshman
+    tag: CE-320
+  CE-412:
+    coreqs: None
+    credits: '4'
+    desc: The principles and practices used in the design of modern complex combinational
+      and sequential digital systems is covered. Digital logic design, analysis, simulation,
+      and implementation techniques are provided. Fundamental algorithms underlying
+      computer-aided design (CAD) tools are studied. Schematic diagrams and hardware
+      description languages (HDL) are used to specify designs targeted for implementation
+      in technologies ranging from discrete ICs to programmable logic devices and
+      ASICs. The course has a laboratory component that allows students to exercise
+      the principles and practices learned.
+    name: Digital Systems Design
+    prereqs: CE-210
+    sections:
+      '01':
+        avail: 16
+        building: AB
+        date: M, R
+        instructor: Foster, David
+        room: '2907'
+        time: 10:15-11:45am
+      02L:
+        avail: 16
+        building: AB
+        date: W
+        instructor: Foster, David
+        room: '2821'
+        time: 10:15-12:20pm
+    standing: Junior
+    tag: CE-412
+  CE-420:
+    coreqs: None
+    credits: '4'
+    desc: This advanced course in Microcomputer Systems covers the architectural features,
+      design principles, development tools and techniques of advanced embedded microcomputers.
+      The topics include architectures of contemporary 16-bit and 32-bit RISC microcontrollers
+      (considering Microchip PIC24 and PIC32 as example cases for the practical development
+      experiences), instruction set, addressing modes, software development & debugging,
+      parallel and serial interfacing, interrupts, timer module, ADC module, etc.
+      The course has a strong laboratory component, which will be carried out on a
+      microcomputer development kit with the latest family of 16-bit and 32-bit microcontrollers.
+    name: Microcomputer Systems
+    prereqs: CE-320
+    sections:
+      '01':
+        avail: 16
+        building: AB
+        date: M, R
+        instructor: Tabrizi, Nozar
+        room: '2911'
+        time: 1:20-2:50pm
+      02L:
+        avail: 16
+        building: AB
+        date: W
+        instructor: Tabrizi, Nozar
+        room: '2823'
+        time: 1:20-3:25pm
+    standing: Junior
+    tag: CE-420
+  CE-451:
+    coreqs: None
+    credits: '4'
+    desc: This course provides an overview of theoretical and practical background
+      regarding the design and development of autonomous vehicles. Topics include
+      an overview of autonomous vehicle systems, autonomous vehicle localization technologies,
+      perception in autonomous driving, decision and planning, and control for autonomous
+      driving. This course aims to cover the basics of autonomous driving through
+      lectures, lab assignments, a term project, and readings on current related topics.
+    name: Introduction to Autonomous Driving
+    prereqs: CS-101 or ECE-101 or IME-211 or MECH-330
+    sections:
+      '01':
+        avail: 16
+        building: AB
+        date: M, R
+        instructor: Zadeh, Mehrdad
+        room: '2911'
+        time: 3:35-5:05pm
+      02L:
+        avail: 16
+        building: AB
+        date: W
+        instructor: Zadeh, Mehrdad
+        room: '2824'
+        time: 3:35-5:40pm
+    standing: Freshman
+    tag: CE-451
+  CE-480:
+    coreqs: None
+    credits: '4'
+    desc: Organization, analysis, and design of interconnected systems of computers
+      are studied. Topics include the Open System Interconnection model and the Internet
+      TCP/IP reference architecture. Standard protocols and technologies at each network
+      layer will be covered, such as HTTP and a socket programming API at the application
+      layer, TCP and UDP at the transport layer, and IPv4 and IPv6 along with fundamentals
+      of routing at the network layer. Ethernet and Wi-Fi with their related physical
+      mediums are discussed. The course will also introduce error detection and correction
+      methods, basic network security principles and mobile technologies.
+    name: Computer Networks
+    prereqs: CE-320 and MATH-258
+    sections:
+      '01':
+        avail: 16
+        building: AB
+        date: M, R
+        instructor: Foster, David
+        room: '2907'
+        time: 8:00-9:30am
+      02L:
+        avail: 16
+        building: AB
+        date: W
+        instructor: Foster, David
+        room: '2823'
+        time: 8:00-10:05am
+    standing: Junior
+    tag: CE-480
+CHEM:
+  CHEM-347:
+    coreqs: None
+    credits: '4'
+    desc: A continuation of CHEM-345 with an emphasis on the chemistry of the organic
+      functional groups and the synthesis of polyfunctional molecules will be provided.
+      Appropriate for science majors.
+    name: Organic Chemistry II
+    prereqs: CHEM-345
+    sections:
+      '01':
+        avail: 8
+        building: MC
+        date: M, R
+        instructor: STAFF
+        room: '3222'
+        time: 1:20-3:25pm
+      02X:
+        avail: 8
+        building: MC
+        date: M, R, F
+        instructor: STAFF
+        room: '3222'
+        time: 1:20-3:25pm
+    standing: Sophomore 2
+    tag: CHEM-347
+  CHEM-348:
+    coreqs: CHEM-347
+    credits: '2'
+    desc: A continuation of CHEM-346 with an emphasis on the advanced techniques used
+      to synthesize multifunctional organic compounds will be provided. Instrumental
+      methods will be intensively utilized to characterize complex chemical structures.
+    name: Organic Chemistry II Lab
+    prereqs: CHEM-345 and CHEM-346
+    sections:
+      '01':
+        avail: 8
+        building: MC
+        date: W
+        instructor: STAFF
+        room: '3222'
+        time: 1:20-5:40pm
+    standing: Sophomore 2
+    tag: CHEM-348
+  CHEM-361:
+    coreqs: CHEM-362
+    credits: '4'
+    desc: A first course in physical chemistry, covering the topics of chemical thermodynamics,
+      gas laws, solutions, transport properties, phases and phase diagrams, electrochemistry,
+      colligative properties and the physical chemistry of macromolecules.
+    name: Physical Chemistry I
+    prereqs: CHEM-237 and CHEM-238 and PHYS-224 and PHYS-225
+    sections:
+      '01':
+        avail: 12
+        building: MC
+        date: T, F
+        instructor: STAFF
+        room: '3222'
+        time: 8:00-10:05am
+    standing: Junior
+    tag: CHEM-361
+  CHEM-362:
+    coreqs: CHEM-361
+    credits: '3'
+    desc: This laboratory will illustrate principles covered in the CHEM-361 lecture
+      and introduce the student to methods used in determining physical relationships
+      in nature. Topics include equilibrium, phase diagrams, solutions, thermodynamics,
+      gases, transport properties and error analysis.
+    name: Physical Chemistry I Lab
+    prereqs: None
+    sections:
+      '01':
+        avail: 12
+        building: MC
+        date: W
+        instructor: STAFF
+        room: '3112'
+        time: 8:00-12:20pm
+    standing: Junior
+    tag: CHEM-362
+  CHEM-451:
+    coreqs: CHEM-452
+    credits: '4'
+    desc: A comprehensive advanced Biochemistry lecture course. It will cover topics
+      related to the biochemistry of the human body, including the breakdown and synthesis
+      of glucose, fatty acids, amino acids, and nucleotides.
+    name: Biochemistry II
+    prereqs: CHEM-351 and CHEM-352
+    sections:
+      '01':
+        avail: 16
+        building: MC
+        date: T, F
+        instructor: STAFF
+        room: '3222'
+        time: 10:15-12:20pm
+    standing: Junior 2
+    tag: CHEM-451
+  CHEM-452:
+    coreqs: CHEM-451
+    credits: '3'
+    desc: A comprehensive advanced Biochemistry laboratory. Topics related to the
+      isolation and manipulation of DNA and proteins will be covered. Including techniques
+      such as PCR, Western blotting, mutagenesis, DNA Fingerprinting, and molecular
+      modeling.
+    name: Biochemistry II Lab
+    prereqs: CHEM-351 and CHEM-352
+    sections:
+      '01':
+        avail: 16
+        building: MC
+        date: T
+        instructor: STAFF
+        room: '3222'
+        time: 1:20-5:40pm
+    standing: Junior 2
+    tag: CHEM-452
+  CHEM-494:
+    coreqs: None
+    credits: '4'
+    desc: Topics will include research ethics, study design and implementation, and
+      results communications. Students will learn about these topics through readings,
+      discussions, and practical application.
+    name: Research Methods
+    prereqs: BIOL-242 or CHEM-238
+    sections:
+      '01':
+        avail: 6
+        building: MC
+        date: R
+        instructor: STAFF
+        room: '3222'
+        time: 8:00-12:20pm
+    standing: Junior 2
+    tag: CHEM-494
+CHME:
+  CHME-310:
+    coreqs: CHME-200, CHME-325, MATH-203
+    credits: '4'
+    desc: The application of fluid mechanics, phase transitions, and heat transfer
+      in chemical engineering is demonstrated. Fluid studies including statistics,
+      dynamics, friction losses, Newtonian and non-fluids, pumps, and metering of
+      flows will be discussed. Mixing and agitation processes will be presented. Heat
+      transfer processes, heat exchangers, evaporation and other heat transfer applications
+      involving phase change will be discussed.
+    name: Fluid Dynamics and Heat Transfer
+    prereqs: None
+    sections:
+      '01':
+        avail: 24
+        building: AB
+        date: T, F
+        instructor: STAFF
+        room: '2234'
+        time: 10:15-12:20pm
+    standing: Freshman
+    tag: CHME-310
+  CHME-325:
+    coreqs: CHME-310
+    credits: '2'
+    desc: This laboratory course demonstrates concepts in fluid mechanics and heat
+      transfer as they relate to chemical engineering. Process measurements and the
+      concepts of accuracy and precision are covered. Fluid static, dynamics, and
+      metering of flows are explored. Experiments on heat conduction and convection
+      are performed. Heat exchanger design and analysis are introduced. Computational
+      topics include feed loop design and solutions of boundary value problems in
+      momentum and heat transport. Finite element simulations are briefly explored.
+    name: Fluid Dynamics and Heat Transfer Lab
+    prereqs: None
+    sections:
+      '01':
+        avail: 24
+        building: AB
+        date: M, R
+        instructor: STAFF
+        room: '2416'
+        time: 8:00-10:05am
+    standing: Freshman
+    tag: CHME-325
+  CHME-430:
+    coreqs: None
+    credits: '4'
+    desc: An understanding of the basic principles and methods underlying the steady
+      state and dynamic characterization of chemical process control will be provided.
+      This course introduces dynamic processes and the engineering tasks of process
+      operations and control. Subject covers modeling the static and dynamic behavior
+      of processes; control strategies; fundamentals and design of PID feedback, feed
+      forward, cascade, and other control structures; controls equipment and instrumentation;
+      statistical design of experiment; and process monitoring and statistical process
+      control.
+    name: Process Controls
+    prereqs: CHME-330 and CHME-350
+    sections:
+      '01':
+        avail: 20
+        building: AB
+        date: M, R
+        instructor: STAFF
+        room: '2234'
+        time: 3:35-5:40pm
+    standing: Freshman
+    tag: CHME-430
+  CHME-480:
+    coreqs: None
+    credits: '4'
+    desc: This is the second of two advanced courses incorporating ore chemical engineering
+      principles into the design of a plant. Concepts built through the first semester
+      course will be strengthened and applied to new design projects. Additional design
+      topics including debottlenecking and troubleshooting will be introduced. Optimization
+      to improve process performance and energy savings will be utilized and applied
+      to course projects. Green engineering and environmental standards will be discussed
+      as related to chemical engineering design. Students will complete large-scale
+      industrial design projects in teams throughout the course. Finally, chemical
+      product design concepts and strategies will be discussed.
+    name: Chemical Engineering Capstone
+    prereqs: CHME-440
+    sections:
+      '01':
+        avail: 18
+        building: AB
+        date: T, F
+        instructor: STAFF
+        room: '2234'
+        time: 8:00-10:05am
+    standing: Senior
+    tag: CHME-480
+  CHME-491:
+    coreqs: None
+    credits: '4'
+    desc: An interdisciplinary advanced course focusing on a specific Chemical Engineering
+      topic. This course is a one-time offering whose content is determined by current
+      faculty interest, and provides a comprehensive and coherent examination of the
+      chosen topic. This course may be repeated for credit under different topics.
+    name: Advanced Chemical Engineering Elective
+    prereqs: None
+    sections:
+      '01':
+        avail: 18
+        building: AB
+        date: M, R
+        instructor: Wang, Lihua
+        room: '2232'
+        time: 3:35-5:40pm
+    standing: Freshman
+    tag: CHME-491
+CS:
+  CS-300:
+    coreqs: None
+    credits: '4'
+    desc: An examination of the profession of computing from historical and ethical
+      perspectives. Overview of the history of computing, from the earliest computational
+      devices and theoretical foundations to modern developments. Discussion of the
+      social impact of computing on society and the ethical implications for computing
+      professionals, including analysis of case studies.
+    name: The Computing Professional
+    prereqs: COMM-101 and (CS-102 or CE-210)
+    sections:
+      '01':
+        avail: 24
+        building: AB
+        date: M, R
+        instructor: Zhu, Rui
+        room: '3506'
+        time: 1:20-3:25pm
+    standing: Sophomore
+    tag: CS-300
+  CS-304:
+    coreqs: None
+    credits: '4'
+    desc: This course will study the design and art involved in the User Experience
+      and User Interface development process. Emphasizes hands-on development with
+      a focus on Digital User Experience design and Interfaces using standard industry
+      tools. Students will learn the process of research, user identification, empathize
+      with end users, design from user requirements, and how to test their designs.
+      Students will evaluate everything from popular website UX/UI, automotive displays,
+      the User experience design process for physical products, and the challenging
+      task of designing for interactive media. Students will go through the entire
+      process of UX design from ideation to delivery of designs through a series of
+      weekly project-based deliverables. Students develop multiple UX/UI solutions.
+    name: User Experience and Interface Design
+    prereqs: CS-101 or ECE-101 or IME-211
+    sections:
+      '01':
+        avail: 24
+        building: AB
+        date: T, F
+        instructor: Reeves, Corbin
+        room: '4507'
+        time: 8:00-10:05am
+    standing: Freshman
+    tag: CS-304
+  CS-312:
+    coreqs: None
+    credits: '4'
+    desc: 'Topics covered in this course include: regular languages and grammars;
+      finite-state machines and transducers; relationships between finite-state automata
+      and regular languages; context-free languages and grammars; language recognition
+      with stack machines and parsers; properties of formal languages; computability
+      and undecidability; introduction to computational complexity.'
+    name: Theory of Computation
+    prereqs: CS-102 and CS-211
+    sections:
+      '01':
+        avail: 24
+        building: AB
+        date: T, F
+        instructor: Huggins, James
+        room: '3333'
+        time: 10:15-12:20pm
+    standing: Sophomore
+    tag: CS-312
+  CS-351:
+    coreqs: None
+    credits: '4'
+    desc: A comprehensive overview of cloud computing and its application such as
+      big data and machine learning. Current technologies that comprise the concept
+      of cloud computing are discussed. Exploration of major Cloud frameworks and
+      their applications.
+    name: Cloud Computing
+    prereqs: CS-102
+    sections:
+      '01':
+        avail: 24
+        building: AB
+        date: M, R
+        instructor: Zhu, Rui
+        room: '3506'
+        time: 8:00-9:30am
+      02L:
+        avail: 24
+        building: AB
+        date: W
+        instructor: Zhu, Rui
+        room: '3506'
+        time: 8:00-10:05am
+    standing: Freshman
+    tag: CS-351
+  CS-391:
+    coreqs: None
+    credits: '4'
+    desc: None
+    name: CS Special Topics
+    prereqs: None
+    sections:
+      '01':
+        avail: 24
+        building: AB
+        date: M, R
+        instructor: STAFF
+        room: '3338'
+        time: 3:35-5:40pm
+    standing: Freshman
+    tag: CS-391
+  CS-415:
+    coreqs: None
+    credits: '4'
+    desc: 'A study of modern data security. Mathematical foundations of cryptography.
+      Classical cryptographic systems and computer attacks on these systems. Cryptographic
+      security over unsecure communication paths: cryptographic protocols, oblivious
+      transfers, proofs of identity, signature schemes. Modern cryptographic systems:
+      data encryption standards, public-key systems, key generation and management.
+      External considerations are presented and discussed: security organizations
+      role in security, privacy considerations, import/export issues.'
+    name: Cryptography
+    prereqs: CS-102 and CS-211
+    sections:
+      '01':
+        avail: 24
+        building: AB
+        date: M, R
+        instructor: Kanchi, Saroja
+        room: '4103'
+        time: 10:15-12:20pm
+    standing: Junior
+    tag: CS-415
+  CS-441:
+    coreqs: None
+    credits: '4'
+    desc: The concepts, principles, issues and techniques for big data and cloud computing
+      are introduced in this course. This course will provide a foundation in data
+      science based on data curation and statistical analysis. The primary goal of
+      this course is to introduce data analysis concepts and techniques that facilitate
+      making decisions from a rich data set. Students will investigate big data concepts,
+      metadata creation, interpretation, and basics of information visualization.
+    name: Foundations of Data Science
+    prereqs: CS-102
+    sections:
+      '01':
+        avail: 24
+        building: AB
+        date: M, R
+        instructor: Bai, Changxin
+        room: '4303'
+        time: 1:20-3:25pm
+    standing: Freshman
+    tag: CS-441
+  CS-451:
+    coreqs: None
+    credits: '4'
+    desc: Operating system function and implementation; process and thread management,
+      CPU scheduling and synchronization; real and virtual memory management, paging
+      and page replacement algorithms, Case studies of historical and modern operating
+      systems.
+    name: Operating Systems
+    prereqs: CS-231
+    sections:
+      '01':
+        avail: 24
+        building: AB
+        date: M, R
+        instructor: Kanchi, Saroja
+        room: '4103'
+        time: 3:35-5:05pm
+      02L:
+        avail: 24
+        building: AB
+        date: W
+        instructor: Kanchi, Saroja
+        room: '4103'
+        time: 3:35-5:40pm
+    standing: Freshman
+    tag: CS-451
+  CS-471:
+    coreqs: None
+    credits: '4'
+    desc: Approaches and techniques for designing and developing large software systems.
+      Software life cycles -- object-oriented and agile design techniques are emphasized.  Requirements,
+      specification, design, and documentation through design patterns and modeling
+      languages. Software quality assurance, validation and verification. Security
+      features designed into system. Project team organization and management. Students
+      will work in teams on a substantial software project.
+    name: Software Engineering
+    prereqs: CS-102
+    sections:
+      '01':
+        avail: 24
+        building: AB
+        date: M, R
+        instructor: Gandy, Lisa
+        room: '4507'
+        time: 1:20-3:25pm
+    standing: Junior
+    tag: CS-471
+  CS-485:
+    coreqs: None
+    credits: '4'
+    desc: This course covers advanced game development techniques to create interactive
+      3D video games using modern game engines. Topics include game artificial intelligence,
+      collision detection, real-time physics, procedural generation, animation, visual
+      effects, combat systems, etc.
+    name: Advanced Game Development
+    prereqs: CS-102
+    sections:
+      '01':
+        avail: 20
+        building: AB
+        date: T, F
+        instructor: Turini, Giuseppe
+        room: '3507'
+        time: 10:15-11:45am
+      02L:
+        avail: 20
+        building: AB
+        date: W
+        instructor: Turini, Giuseppe
+        room: '3507'
+        time: 10:15-12:20pm
+    standing: Freshman
+    tag: CS-485
+EE:
+  EE-310:
+    coreqs: None
+    credits: '4'
+    desc: 'A second course in circuit analysis. Topics include: first-order and second-order
+      transient circuit analysis, the Fourier series, three-phase circuits, resonance,
+      filters, Bode plots and magnetically coupled circuits. '
+    name: Circuits II
+    prereqs: EE-210 and (MATH-204 or MATH-204H)
+    sections:
+      '01':
+        avail: 32
+        building: AB
+        date: T, F
+        instructor: Torfeh-Isfahani, Mohammad
+        room: '2761'
+        time: 1:20-3:25pm
+    standing: Freshman
+    tag: EE-310
+  EE-320:
+    coreqs: EE-321
+    credits: '3'
+    desc: 'The basic building blocks used in electronic engineering are studied. Topics
+      include: operational amplifiers; diodes; MOS and bipolar devices; basic transistor
+      amplifier configurations; and MOSFET digital logic circuits.'
+    name: Electronics I
+    prereqs: EE-210 and EE-211
+    sections:
+      '01':
+        avail: 16
+        building: AB
+        date: T, F
+        instructor: STAFF
+        room: '2907'
+        time: 10:15-11:45am
+    standing: Freshman
+    tag: EE-320
+  EE-321:
+    coreqs: EE-320
+    credits: '1'
+    desc: 'An introductory laboratory course designed to reinforce the topics in EE-320,
+      Electronics I. Experiments include: PSPICE simulation, operational amplifiers;
+      diodes; MOS and bipolar transistor configurations; MOSFET digital circuits.'
+    name: Electronics I Laboratory
+    prereqs: EE-210 and EE-211
+    sections:
+      '01':
+        avail: 16
+        building: AB
+        date: W
+        instructor: STAFF
+        room: '2627'
+        time: 10:15-12:20pm
+    standing: Freshman
+    tag: EE-321
+  EE-336:
+    coreqs: None
+    credits: '4'
+    desc: 'Introductory continuous-time signals and systems are studied. Topics include:
+      definitions and properties of signals and systems, convolution, differential
+      equations, Laplace transform with applications, Fourier series, and Fourier
+      transform of continuous-time signals with applications.'
+    name: Continuous-Time Signals and Systems
+    prereqs: (MATH-204 or MATH-204H) and EE-210
+    sections:
+      '01':
+        avail: 32
+        building: AB
+        date: T, F
+        instructor: Tait, Chinwe
+        room: '2716'
+        time: 8:00-10:05am
+    standing: Sophomore
+    tag: EE-336
+  EE-391:
+    coreqs: None
+    credits: '4'
+    desc: None
+    name: PCB Design & Testing
+    prereqs: None
+    sections:
+      '01':
+        avail: 18
+        building: TBA
+        date: ''
+        instructor: STAFF
+        room: TBA
+        time: TBA
+    standing: Freshman
+    tag: EE-391
+  EE-432:
+    coreqs: None
+    credits: '4'
+    desc: 'Time and frequency domain representations of control systems are studied.
+      Topics include: stability criteria; root locus methods; frequency response techniques,
+      s-plane design methods. Design and evaluation of control systems are supplemented
+      with computer aided control system design software.'
+    name: Feedback Control Systems
+    prereqs: EE-310 or EE-336
+    sections:
+      '01':
+        avail: 32
+        building: AB
+        date: T, F
+        instructor: Duan, Chen
+        room: '2759'
+        time: 1:20-2:50pm
+      02L:
+        avail: 16
+        building: AB
+        date: W
+        instructor: Duan, Chen
+        room: '2627'
+        time: 1:20-3:25pm
+      03L:
+        avail: 16
+        building: AB
+        date: R
+        instructor: Torfeh-Isfahani, Mohammad
+        room: '2627'
+        time: 1:20-3:25pm
+    standing: Freshman
+    tag: EE-432
+  EE-446:
+    coreqs: None
+    credits: '4'
+    desc: Methods of controlling electric machines and their applications in electric
+      vehicles are discussed. Topics include the theory of permanent-magnet and induction
+      machines; coordinate-frame transformations; analysis and tuning of torque and
+      speed control systems; modeling and dynamics of electric drives and vehicles,
+      power-electronic devices, power-electronic circuits and switching schemes; rotor-flux
+      oriented vector control; regenerative braking; and rotor-flux position-sensing
+      methods. Machine and vehicle models will be developed using MATLAB Simulink.
+      A low-voltage permanent-magnet machine and power-electronic inverter will be
+      analyzed and tested.
+    name: Vector Control of AC Electric Machines
+    prereqs: EE-240 and EE-310 and EE-320 and EE-321
+    sections:
+      '01':
+        avail: 16
+        building: AB
+        date: M, R
+        instructor: Taylor, Allan
+        room: '2716'
+        time: 3:35-5:05pm
+      02L:
+        avail: 16
+        building: AB
+        date: W
+        instructor: Taylor, Allan
+        room: 2822C
+        time: 3:35-5:40pm
+    standing: Freshman
+    tag: EE-446
+  EE-490:
+    coreqs: None
+    credits: '4'
+    desc: ' Students are prepared for engineering practice through a major design
+      experience based on knowledge and skills acquired in earlier course work. They
+      work in teams to creatively solve an open-ended engineering design problem and
+      develop a prototype system to meet a given specification. The design will emphasize
+      electrical engineering, but will be multidisciplinary. The specification requires
+      the design solution to incorporate appropriate engineering standards with consideration
+      of multiple constraints such as: public health, safety, and welfare, as well
+      as global, cultural, social, environmental, and economic factors. Designs are
+      documented in a professional manner and presented publicly for a range of audiences. '
+    name: Senior Electrical Engineering Design Project
+    prereqs: CE-320 and EE-240 and EE-310 and EE-320 and EE-321 and (EE-336 or EE-338)
+    sections:
+      '01':
+        avail: 24
+        building: AB
+        date: T
+        instructor: Duan, Chen
+        room: '2911'
+        time: 3:35-5:40pm
+      02L:
+        avail: 24
+        building: AB
+        date: F
+        instructor: Duan, Chen
+        room: '2820'
+        time: 3:35-5:40pm
+    standing: Senior
+    tag: EE-490
+IME:
+  IME-321:
+    coreqs: None
+    credits: '4'
+    desc: "This course introduces the students to mathematical modeling and quantitative\
+      \ methods and techniques for effective decision\u2013making. In this course,\
+      \ the students learn how to formulate, analyze, and solve mathematical models\
+      \ that represent real-world problems. Topics include deterministic systems optimization;\
+      \ review of linear algebra, linear programming, sensitivity analysis, transportation\
+      \ network models, assignment problems, integer programming, and introductory\
+      \ topics in nonlinear programming."
+    name: Operations Research - Deterministic Models
+    prereqs: IME-200
+    sections:
+      '01':
+        avail: 24
+        building: AB
+        date: M, R
+        instructor: Watchorn, Andrew
+        room: '1210'
+        time: 8:00-10:05am
+    standing: Freshman
+    tag: IME-321
+  IME-332:
+    coreqs: None
+    credits: '4'
+    desc: 'This course introduces the students to statistics applications in engineering.
+      Topics include exploratory data analysis, sampling methods, inferential statistics
+      for one and two population cases, goodness of fit tests, regression analysis
+      and non-parametric statistics. Statistical software such as Minitab is used
+      throughout the course. '
+    name: Engineering Statistics
+    prereqs: MATH-258
+    sections:
+      '01':
+        avail: 24
+        building: AB
+        date: T, F
+        instructor: Ghazi Nezami, Farnaz
+        room: '1210'
+        time: 1:20-3:25pm
+    standing: Sophomore 2
+    tag: IME-332
+  IME-403:
+    coreqs: None
+    credits: '4'
+    desc: "This course introduces the fundamentals of computer numerical control (CNC)\
+      \ programming and computer-aided manufacturing (CAM) are introduced. The fundamental\
+      \ theoretical and operational concepts of machining are also presented. The\
+      \ course focuses on the programming of cutting operations; tool materials, selection,\
+      \ and uses. Topics include G-code programming, Introduction to CAM software,\
+      \ Taylor\u2019s tool life model, Criteria for tool selection, and the Orthogonal\
+      \ Cutting Model. Laboratories use CNC machine tools for programming and cutting,\
+      \ and are designed to illustrate theoretical concepts and methods for solving\
+      \ practical engineering machining problems."
+    name: Computer Numerical Control Machining
+    prereqs: IME-100
+    sections:
+      '01':
+        avail: 20
+        building: AB
+        date: M, R
+        instructor: Van Cura, Daniel
+        room: '1210'
+        time: 1:20-2:50pm
+    standing: Junior 2
+    tag: IME-403
+  IME-408:
+    coreqs: None
+    credits: '4'
+    desc: Basic concepts of robotic system theory and applications are presented.
+      Human and robotic system interface with diverse real environments are discussed.
+      Human and robotic safety is stressed. Advantages, limitations, business case
+      justifications of investment, and benefits of robotic systems for lean and quality
+      operations are emphasized. Flexible manufacturing operations, work cell design,
+      cycle time, work path, end-effectors, and collaborative robots are covered.
+      Both hands-on and simulation of industrial robotic systems are included.
+    name: Industrial Robotics
+    prereqs: MECH-100 and IME-100
+    sections:
+      '01':
+        avail: 12
+        building: AB
+        date: W
+        instructor: Edwards, William
+        room: '1716'
+        time: 1:20-3:25pm
+    standing: Junior 2
+    tag: IME-408
+  IME-422:
+    coreqs: None
+    credits: '4'
+    desc: This course covers modeling of dynamic systems and uses virtual and discrete
+      event simulation (DES) to analyze engineering design problems. Students use
+      modern simulation software to practice the applications in production/manufacturing/service
+      and other areas related to Industrial and Manufacturing Engineering.
+    name: Simulation
+    prereqs: MATH-258
+    sections:
+      '01':
+        avail: 24
+        building: AB
+        date: M, R
+        instructor: Edwards, William
+        room: '1210'
+        time: 3:35-5:40pm
+    standing: Freshman
+    tag: IME-422
+  IME-453:
+    coreqs: None
+    credits: '4'
+    desc: This course introduces principles of supply chain and logistics network
+      from an engineering perspective. Students gain an understanding of the decision-making
+      process required to design and manage the global supply chain. The key concepts
+      such as inventory planning, warehousing, logistics and distribution networks,
+      facility location planning, probabilistic project management, and sustainability
+      are covered in this course.
+    name: Supply Chain Design
+    prereqs: IME-452
+    sections:
+      '01':
+        avail: 24
+        building: AB
+        date: T, F
+        instructor: Ghazi Nezami, Farnaz
+        room: '1210'
+        time: 10:15-12:20pm
+    standing: Freshman
+    tag: IME-453
+  IME-454:
+    coreqs: None
+    credits: '4'
+    desc: "This course provides the student with the challenge of integrating and\
+      \ synthesizing general engineering knowledge, particularly in industrial and\
+      \ manufacturing disciplines. Students apply the engineering design process to\
+      \ creatively solve real-world, open-ended problems in a team setting. The course\
+      \ is intended to be taken in the students\u2019 final term on campus."
+    name: Senior Design Project
+    prereqs: None
+    sections:
+      '01':
+        avail: 24
+        building: AB
+        date: W
+        instructor: Nam, Chang
+        room: '1210'
+        time: 1:20-3:25pm
+    standing: Senior II
+    tag: IME-454
+  IME-465:
+    coreqs: None
+    credits: '4'
+    desc: 'This multidisciplinary course provides theoretical and practical skills
+      that are needed to design, develop, and evaluate human interaction with computer
+      and machine interfaces and virtual environments. Course topics are anchored
+      around fundamental cognitive human capabilities and their relationship to product
+      design and testing. Example topics include human psychological capabilities,
+      rapid prototyping, usability testing, and experimental evaluation of input devices.
+      Students employ the user-centered design process with hands-on experimentation
+      and evaluation in a term design project. This course is multidisciplinary, so
+      students from all majors are encouraged to participate and programming skills
+      are not required. '
+    name: Human-Computer Interaction and Interface Design
+    prereqs: None
+    sections:
+      '01':
+        avail: 24
+        building: AB
+        date: T, F
+        instructor: Maier, Torsten
+        room: '1210'
+        time: 3:35-5:05pm
+    standing: Junior
+    tag: IME-465
+  IME-471:
+    coreqs: None
+    credits: '4'
+    desc: "The basics of modern methods of quality control and improvement that are\
+      \ used in the manufacturing and service industries are covered in this course.\
+      \ It includes quality philosophy and fundamentals, statistical methods of quality\
+      \ improvement, concept of variation and its reduction, control charts, and Statistical\
+      \ Process Control (SPC). Deming\u2019s quality and management concepts will\
+      \ also be discussed."
+    name: Quality Control
+    prereqs: MATH-258
+    sections:
+      '01':
+        avail: 24
+        building: AB
+        date: M, R
+        instructor: Edwards, William
+        room: '1210'
+        time: 10:15-12:20pm
+    standing: Junior
+    tag: IME-471
+MATH:
+  MATH-305:
+    coreqs: None
+    credits: '4'
+    desc: An introduction to numerical methods including the study of iterative solutions
+      of equations, interpolation, curve fitting, numerical differentiation and integration,
+      and the solution of ordinary differential equations. An introduction to matrices
+      and determinants; application to the solution of linear systems.
+    name: Numerical Methods and Matrices
+    prereqs: MATH-204 or MATH-204H
+    sections:
+      '01':
+        avail: 30
+        building: AB
+        date: M, T, R, F
+        instructor: STAFF
+        room: '4104'
+        time: 2:25-3:25pm
+      '02':
+        avail: 36
+        building: AB
+        date: M, T, R, F
+        instructor: STAFF
+        room: '4312'
+        time: 9:05-10:05am
+    standing: Sophomore
+    tag: MATH-305
+  MATH-307:
+    coreqs: MATH-102
+    credits: '4'
+    desc: A study of matrix concepts including such topics as basic algebraic operations,
+      determinants, inversion, solution of systems of linear equations, vector spaces,
+      basis and dimension, eigenvalues, and eigenvectors.
+    name: Matrix Algebra
+    prereqs: MATH-101 or MATH-101X
+    sections:
+      '01':
+        avail: 36
+        building: AB
+        date: M, T, R, F
+        instructor: STAFF
+        room: '2907'
+        time: 4:40-5:40pm
+    standing: Freshman
+    tag: MATH-307
+  MATH-313:
+    coreqs: None
+    credits: '4'
+    desc: "An introduction to linear partial differential equations (PDE\u2019s) and\
+      \ basic techniques of applied mathematics used to solve initial, boundary value\
+      \ problems associated with these equations. Topics include: derivation of some\
+      \ of the fundamental PDE\u2019s\u2019 and boundary conditions that arise in\
+      \ science and engineering; Fourier Series; Sturm-Liouville Systems including\
+      \ eigenvalues, eigenfunctions and eigenfunction expansions; the separation of\
+      \ variables techniques; Fourier Transforms. Applications to problems of science\
+      \ and engineering will be given throughout the course."
+    name: Boundary Value Problems
+    prereqs: MATH-204 or MATH-204H
+    sections:
+      '01':
+        avail: 36
+        building: AB
+        date: M, T, R, F
+        instructor: STAFF
+        room: '2225'
+        time: 10:15-11:15am
+    standing: Sophomore 2
+    tag: MATH-313
+  MATH-412:
+    coreqs: None
+    credits: '4'
+    desc: An introduction to the theory of complex variables. Includes basic algebra
+      of complex numbers, analytic functions and the Cauchy-Riemann equations, elementary
+      transformations, complex integration, the Cauchy integral formulas, Taylor and
+      Laurent series, and the theory of residues.
+    name: Complex Variables
+    prereqs: MATH-203 or MATH-203H or MATH-203X
+    sections:
+      '01':
+        avail: 36
+        building: AB
+        date: M, R
+        instructor: STAFF
+        room: '2759'
+        time: 3:35-5:40pm
+    standing: Sophomore
+    tag: MATH-412
+MECH:
+  MECH-311:
+    coreqs: None
+    credits: '4'
+    desc: "The objective of the course is to teach fundamentals of machine elements\
+      \ and mechatronics design, with an emphasis on product design and fabrication.\
+      \ Design, analysis and fabrication of prototype mechatronic systems and devices\
+      \ are completed. Mechanical designs concepts including transmission methods,\
+      \ force and torque analysis, mechanisms and simulation is covered. Formal design\
+      \ processes such as brainstorming and concept-tree development are utilized.\
+      \ Intellectual property law pertinent to design and invention is covered. The\
+      \ synergistic combination of sensors, actuators and controls technologies to\
+      \ create functionally \u201Csmart\u201D and adaptive devices is implemented.\
+      \ Sensors and actuator technologies are covered. The course culminates with\
+      \ an open-ended project to design and fabricate a mechatronic system using basic\
+      \ machining equipment and a programmable controller."
+    name: Introduction to Mechanical System Design
+    prereqs: MECH-100 and MECH-210 and (MECH-231L or EE-211)
+    sections:
+      '01':
+        avail: 18
+        building: MC
+        date: T, F
+        instructor: George, Christopher
+        room: '2116'
+        time: 1:20-3:25pm
+      '02':
+        avail: 18
+        building: MC
+        date: T, F
+        instructor: George, Christopher
+        room: '2116'
+        time: 3:35-5:40pm
+    standing: Freshman
+    tag: MECH-311
+  MECH-428:
+    coreqs: None
+    credits: '4'
+    desc: This course provides an opportunity for the students to study bio and renewable
+      energy and their applications around the globe. The students also perform hands-on
+      experiments in several areas of sustainable energy. The fundamental principles
+      required will be provided prior to laboratory experimentation. Topics covered
+      include bur are not limited to solar thermal energy and photovoltaics, wind
+      energy, energy storage, bioenergy used for power, transportation and heating,
+      PEM fuel cells, and alternative energy vehicles.
+    name: Bio and Renewable Energy
+    prereqs: PHYS-114 and PHYS-115
+    sections:
+      '01':
+        avail: 24
+        building: MC
+        date: M, R
+        instructor: Lemke, Brenda
+        room: '2240'
+        time: 3:35-5:40pm
+    standing: Freshman
+    tag: MECH-428
+  MECH-442:
+    coreqs: None
+    credits: '4'
+    desc: The objective of this course is to provide a comprehensive experience in
+      the area of automotive chassis engineering. The course covers tires, suspensions
+      and steering. A vehicle system approach is used for learning. Vehicle dynamics
+      concepts and improvement approaches are integrated into the course content.
+      Professional computer-aided engineering tools are introduced (e.g. CarSim, SuspensionSim)
+      and applied to the areas of suspension analysis and overall vehicle dynamics
+      performance. Students work in teams to complete a chassis design project applicable
+      to passenger cars or light trucks.
+    name: Chassis Systems
+    prereqs: MECH-330
+    sections:
+      '01':
+        avail: 24
+        building: MC
+        date: M, R
+        instructor: Mazzei Jr., Arnaldo
+        room: '2130'
+        time: 10:15-12:20pm
+    standing: Freshman
+    tag: MECH-442
+  MECH-448:
+    coreqs: None
+    credits: '4'
+    desc: This course provides an engineering project experience that is representative
+      of automotive industry projects, except it is scaled down such that it can be
+      performed in one school term. The project begins with setting specific and measurable
+      goals in a project statement. This is followed by researching and brainstorming,
+      producing design alternatives, selecting concepts, and developing and analyzing
+      concepts. Project updates are required throughout the course. A mid-term and
+      final oral presentation are mandatory, along with the submission of a final
+      written report. This course satisfies the ME Senior Design Project requirement.
+    name: Vehicle Design Project
+    prereqs: MECH-300 and MECH-320 and MECH-330
+    sections:
+      '01':
+        avail: 16
+        building: MC
+        date: T, F
+        instructor: AbdulNour, Bashar
+        room: '1107'
+        time: 3:35-5:40pm
+    standing: Senior
+    tag: MECH-448
+  MECH-482:
+    coreqs: None
+    credits: '4'
+    desc: 'The properties, mechanics, and design simulation aspects of fiber-reinforced
+      composite materials are covered in this course. Topics include: constituents
+      and interfacial bonding, microstructure and micromechanics, theory of anisotropy,
+      classical laminate theory, material characterization, failure and damage, manufacturing
+      techniques, composite structure design, and introduction of nanocomposite.'
+    name: Mechanics and Design Simulation of Fiber-Reinforced Composite Materials
+    prereqs: MECH-300
+    sections:
+      '01':
+        avail: 14
+        building: MC
+        date: T, F
+        instructor: Dong, Yaomin
+        room: '1106'
+        time: 3:35-5:40pm
+    standing: Freshman
+    tag: MECH-482
+  MECH-495:
+    coreqs: None
+    credits: '4'
+    desc: 'The objective of this course is to provide a comprehensive capstone design
+      experience that includes a design project in mechanical systems, or dynamic
+      systems, or energy systems, based on knowledge and skills acquired in earlier
+      coursework. The project begins with setting specific and measurable goals in
+      a project statement. This is followed by researching and brainstorming, producing
+      design alternatives, selecting concepts, and developing and analyzing concepts.
+      Students work in teams to design and develop a prototype or a conceptual design
+      to meet given specifications and to incorporate relevant engineering standards.
+      Project updates are required throughout the course. '
+    name: Senior Design Project
+    prereqs: MECH-300 and MECH-312 and MECH-322 and MECH-330
+    sections:
+      '01':
+        avail: 16
+        building: MC
+        date: T, F
+        instructor: Hoff, Craig
+        room: '1106'
+        time: 1:20-3:25pm
+      '02':
+        avail: 16
+        building: MC
+        date: T, F
+        instructor: Nasr, Karim
+        room: '1107'
+        time: 1:20-3:25pm
+    standing: Senior
+    tag: MECH-495
+MGMT:
+  MGMT-419:
+    coreqs: None
+    credits: '4'
+    desc: This course covers managing projects within an organizational context, including
+      the processes related to initiating, planning, executing, controlling, reporting,
+      and closing a project. Concepts such as project integration, scope, time, cost,
+      quality control, and risk management are highlighted. Identifying project champions,
+      working with user teams, training, and documentation are key concepts of project
+      management that are detailed in the course.
+    name: Project Management
+    prereqs: None
+    sections:
+      '01':
+        avail: 30
+        building: AB
+        date: M, R
+        instructor: Navarre, Lawrence
+        room: '4309'
+        time: 3:35-5:40pm
+    standing: Junior
+    tag: MGMT-419
+PHYS:
+  PHYS-302:
+    coreqs: MATH-204
+    credits: '4'
+    desc: The phenomena of vibration and waves provide a fundamental background necessary
+      to approach a wide variety of applications in physics and engineering. The first
+      part of this course will introduce students to the basics of vibration, including
+      the effects of real damping, response to driving forces, nonlinear oscillation
+      and application to several acoustical, optical, electrical, and mechanical systems.
+      After this introduction to vibration, the course will focus on wave motion.
+      The behavior of non-dispersive waves in solids, acoustic sound waves, electromagnetic
+      waves, and transverse waves on a string will be discussed along with an introduction
+      to Fourier analysis as a means of analyzing wave signals. Non-dispersive waves
+      in non-uniform media will also be explored with applications to several different
+      types of waves occurring in nature. Basic wave phenomena including reflection,
+      refraction, diffraction and interference will be discussed with respect to a
+      variety of wave types. Students successfully completing this course will be
+      well prepared for further study in optics, acoustics, vibration, and electromagnetic
+      wave propagation.
+    name: Vibration, Sound and Light
+    prereqs: PHYS-224 and PHYS-225 and (MATH-203 or MATH-203H or MATH-203X)
+    sections:
+      '01':
+        avail: 20
+        building: AB
+        date: T, F
+        instructor: STAFF
+        room: '2601'
+        time: 10:15-12:20pm
+    standing: Sophomore 2
+    tag: PHYS-302
+  PHYS-412:
+    coreqs: None
+    credits: '4'
+    desc: A look at classical physics. Topics include the projectile motion with air
+      resistance, simple harmonic and nonlinear oscillation, central force motion,
+      Kepler's laws and planetary motion, motion in noninertial reference frames,
+      motion of systems of particles, rigid body motion, Lagrangian mechanics, and
+      Hamiltonian theory. Computational methods for solving advanced physics problems
+      will also be introduced.
+    name: Theoretical Mechanics
+    prereqs: PHYS-114 and (MATH-204 or MATH-204H) and (EP-235 or MATH-305)
+    sections:
+      '01':
+        avail: 20
+        building: AB
+        date: T, F
+        instructor: STAFF
+        room: '2601'
+        time: 3:35-5:40pm
+    standing: Freshman
+    tag: PHYS-412
+  PHYS-462:
+    coreqs: None
+    credits: '4'
+    desc: 'Intoduction to the fundamentals of non-relativistic quantum mechanics.
+      Topics include: photons, matter waves, the Bohr model, the time-independent
+      Schrodinger equation (and its application to one dimensional potentials), quantization
+      of angular momentum, spin, the hydrogen atom, multi-electron atoms, and perturbation
+      theory.'
+    name: Quantum Mechanics
+    prereqs: (MATH-204 or MATH-204H) and (MATH-305 or MATH-307) and PHYS-362
+    sections:
+      '01':
+        avail: 20
+        building: AB
+        date: M, R
+        instructor: STAFF
+        room: '2903'
+        time: 3:35-5:40pm
+    standing: Junior
+    tag: PHYS-462
+  PHYS-477:
+    coreqs: None
+    credits: '4'
+    desc: A study of geometrical and physical optics. Topics in geometrical optics
+      include phenomena of reflection, refraction, total internal reflection and their
+      application to imaging systems consisting of lenses and mirrors. Physical optics
+      will start from the electromagnetic wave nature of light and will focus on such
+      wave-like phenomena as optical interference, diffraction, polarization, and
+      dispersion of light. Limited topics in interaction of light with matter, crystal
+      optics, optical properties of materials and their applications in such areas
+      as optoelectronics, photonics and fiber optics will also be addressed. The lab
+      investigates optical component analysis, ray tracing, interferometry, diffraction,
+      polarization, interference, optical fibers and other special topics.
+    name: Optics and Lab
+    prereqs: (MATH-204 or MATH-204H) and PHYS-302
+    sections:
+      '01':
+        avail: 16
+        building: AB
+        date: M, R
+        instructor: STAFF
+        room: '2617'
+        time: 10:15-12:20pm
+      02L:
+        avail: 16
+        building: AB
+        date: W
+        instructor: STAFF
+        room: '2617'
+        time: 10:15-12:20pm
+    standing: Junior
+    tag: PHYS-477

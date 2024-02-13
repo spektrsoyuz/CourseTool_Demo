@@ -10,8 +10,8 @@
       "sections": {
         "01": {
           "instructor": "STAFF",
-          "time": "1:20-3:25pm",
-          "date": "T, F",
+          "time": "6:00-8:00pm",
+          "date": "M, R",
           "building": "AB",
           "room": "4305",
           "avail": 24
@@ -29,7 +29,7 @@
       "sections": {
         "01": {
           "instructor": "STAFF",
-          "time": "1:20-3:25pm",
+          "time": "6:00-8:00pm",
           "date": "W",
           "building": "AB",
           "room": "2120",
@@ -194,25 +194,6 @@
     }
   },
   "CHME": {
-    "CHME-100": {
-      "tag": "CHME-100",
-      "name": "Introduction to Chemical Engineering",
-      "coreqs": "None",
-      "prereqs": "None",
-      "standing": "Freshman",
-      "desc": "Students will be introduced to the discipline of chemical engineering. Class topics include discussion of what chemical engineers do in practice, basic calculations related to chemical engineering, hands-on experiences to improve the understanding of how basic chemical processes work, experiments to demonstrate core concepts, team work skills, time management, spreadsheet and process flow diagram development, and student research opportunities.",
-      "sections": {
-        "01": {
-          "instructor": "STAFF",
-          "time": "8:00-10:05am",
-          "date": "T, F",
-          "building": "AB",
-          "room": "2234",
-          "avail": 24
-        }
-      },
-      "credits": "4"
-    },
     "CHME-200": {
       "tag": "CHME-200",
       "name": "Mass & Energy Balance",
@@ -224,7 +205,7 @@
         "02": {
           "instructor": "STAFF",
           "time": "1:20-3:25pm",
-          "date": "T, F",
+          "date": "M, R",
           "building": "AB",
           "room": "2234",
           "avail": 24
@@ -299,10 +280,10 @@
       "sections": {
         "01": {
           "instructor": "STAFF",
-          "time": "10:15-12:20pm",
-          "date": "M, R",
+          "time": "8:00-10:05am",
+          "date": "T, F",
           "building": "AB",
-          "room": "2232",
+          "room": "2234",
           "avail": 18
         }
       },
@@ -317,7 +298,7 @@
       "desc": "An interdisciplinary advanced course focusing on a specific Chemical Engineering topic. This course is a one-time offering whose content is determined by current faculty interest, and provides a comprehensive and coherent examination of the chosen topic. This course may be repeated for credit under different topics.",
       "sections": {
         "01": {
-          "instructor": "STAFF",
+          "instructor": "Wang, Lihua",
           "time": "3:35-5:40pm",
           "date": "M, R",
           "building": "AB",
@@ -414,8 +395,8 @@
         },
         "04": {
           "instructor": "STAFF",
-          "time": "8:00-10:05am",
-          "date": "F",
+          "time": "1:20-3:25pm",
+          "date": "R",
           "building": "MC",
           "room": "3112",
           "avail": 22
@@ -461,51 +442,13 @@
         "01": {
           "instructor": "STAFF",
           "time": "1:20-5:40pm",
-          "date": "T",
+          "date": "W",
           "building": "MC",
           "room": "3222",
           "avail": 8
         }
       },
       "credits": "2"
-    },
-    "CHEM-351": {
-      "tag": "CHEM-351",
-      "name": "Biochemistry I",
-      "coreqs": "CHEM-352",
-      "prereqs": "CHEM-345 and CHEM-346",
-      "standing": "Sophomore",
-      "desc": "The basic principles of biochemistry will be the focus of this course. Coverage includes a thorough description of the biochemical framework - amino acids, proteins, enzymes, lipids, membranes, carbohydrates, nucleic acids, DNA, and RNA. In addition, the energetics and metabolism of a number of biological processes will be introduced.",
-      "sections": {
-        "01": {
-          "instructor": "STAFF",
-          "time": "1:20-3:25pm",
-          "date": "M, R",
-          "building": "MC",
-          "room": "3225",
-          "avail": 16
-        }
-      },
-      "credits": "4"
-    },
-    "CHEM-352": {
-      "tag": "CHEM-352",
-      "name": "Biochemistry Lab",
-      "coreqs": "CHEM-351",
-      "prereqs": "CHEM-345 and CHEM-346",
-      "standing": "Sophomore",
-      "desc": "An introduction to biochemistry laboratory procedures for the separation and analysis of biologically important molecules. This course also covers techniques and methodology important in the biotechnology field.",
-      "sections": {
-        "01": {
-          "instructor": "STAFF",
-          "time": "1:20-5:40pm",
-          "date": "T",
-          "building": "MC",
-          "room": "3225",
-          "avail": 16
-        }
-      },
-      "credits": "3"
     },
     "CHEM-361": {
       "tag": "CHEM-361",
@@ -555,8 +498,8 @@
       "sections": {
         "01": {
           "instructor": "STAFF",
-          "time": "3:35-5:40pm",
-          "date": "M, R",
+          "time": "10:15-12:20pm",
+          "date": "T, F",
           "building": "MC",
           "room": "3222",
           "avail": 16
@@ -575,13 +518,32 @@
         "01": {
           "instructor": "STAFF",
           "time": "1:20-5:40pm",
-          "date": "W",
+          "date": "T",
           "building": "MC",
           "room": "3222",
           "avail": 16
         }
       },
       "credits": "3"
+    },
+    "CHEM-494": {
+      "tag": "CHEM-494",
+      "name": "Research Methods",
+      "coreqs": "None",
+      "prereqs": "BIOL-242 or CHEM-238",
+      "standing": "Junior 2",
+      "desc": "Topics will include research ethics, study design and implementation, and results communications. Students will learn about these topics through readings, discussions, and practical application.",
+      "sections": {
+        "01": {
+          "instructor": "STAFF",
+          "time": "8:00-12:20pm",
+          "date": "R",
+          "building": "MC",
+          "room": "3222",
+          "avail": 6
+        }
+      },
+      "credits": "4"
     }
   },
   "COMM": {
@@ -649,7 +611,7 @@
     },
     "COMM-391": {
       "tag": "COMM-391",
-      "name": "Communications Special Topics",
+      "name": "Horror Film",
       "coreqs": "None",
       "prereqs": "LA-201 or LS-201",
       "standing": "Freshman",
@@ -947,7 +909,7 @@
       "sections": {
         "01": {
           "instructor": "Huggins, James",
-          "time": "1:20-2:50pm",
+          "time": "3:35-5:05pm",
           "date": "T, F",
           "building": "AB",
           "room": "3506",
@@ -955,7 +917,7 @@
         },
         "02L": {
           "instructor": "Huggins, James",
-          "time": "1:20-3:25pm",
+          "time": "3:35-5:40pm",
           "date": "W",
           "building": "AB",
           "room": "3506",
@@ -1089,6 +1051,25 @@
           "date": "W",
           "building": "AB",
           "room": "3506",
+          "avail": 24
+        }
+      },
+      "credits": "4"
+    },
+    "CS-391": {
+      "tag": "CS-391",
+      "name": "CS Special Topics",
+      "coreqs": "None",
+      "prereqs": "None",
+      "standing": "Freshman",
+      "desc": "None",
+      "sections": {
+        "01": {
+          "instructor": "STAFF",
+          "time": "3:35-5:40pm",
+          "date": "M, R",
+          "building": "AB",
+          "room": "3338",
           "avail": 24
         }
       },
@@ -1472,11 +1453,11 @@
       "desc": "None",
       "sections": {
         "01": {
-          "instructor": "Taylor, Allan",
-          "time": "1:20-3:25pm",
-          "date": "M, R",
-          "building": "AB",
-          "room": "2824",
+          "instructor": "STAFF",
+          "time": "TBA",
+          "date": "",
+          "building": "TBA",
+          "room": "TBA",
           "avail": 18
         }
       },
@@ -1586,7 +1567,7 @@
           "time": "1:20-3:25pm",
           "date": "M, R",
           "building": "AB",
-          "room": "4301",
+          "room": "4310",
           "avail": 20
         }
       },
@@ -1626,9 +1607,9 @@
         "03": {
           "instructor": "Ren, Ping",
           "time": "1:20-3:25pm",
-          "date": "W",
+          "date": "M, R",
           "building": "AB",
-          "room": "1819",
+          "room": "1209",
           "avail": 24
         },
         "02": {
@@ -1641,18 +1622,18 @@
         },
         "01": {
           "instructor": "Ren, Ping",
-          "time": "8:00-10:05am",
-          "date": "M, R",
+          "time": "10:15-12:20pm",
+          "date": "W",
           "building": "AB",
-          "room": "1209",
+          "room": "1819",
           "avail": 24
         },
         "04": {
           "instructor": "Ren, Ping",
-          "time": "1:20-3:25pm",
-          "date": "W",
+          "time": "3:35-5:40pm",
+          "date": "M, R",
           "building": "AB",
-          "room": "1819",
+          "room": "1209",
           "avail": 24
         }
       },
@@ -1686,7 +1667,7 @@
       "desc": "This course introduces the students to mathematical modeling and quantitative methods and techniques for effective decision–making. In this course, the students learn how to formulate, analyze, and solve mathematical models that represent real-world problems. Topics include deterministic systems optimization; review of linear algebra, linear programming, sensitivity analysis, transportation network models, assignment problems, integer programming, and introductory topics in nonlinear programming.",
       "sections": {
         "01": {
-          "instructor": "Grasman, Scott",
+          "instructor": "Watchorn, Andrew",
           "time": "8:00-10:05am",
           "date": "M, R",
           "building": "AB",
@@ -1725,7 +1706,7 @@
       "sections": {
         "01": {
           "instructor": "Van Cura, Daniel",
-          "time": "1:20-3:25pm",
+          "time": "1:20-2:50pm",
           "date": "M, R",
           "building": "AB",
           "room": "1210",
@@ -1749,25 +1730,6 @@
           "building": "AB",
           "room": "1716",
           "avail": 12
-        }
-      },
-      "credits": "4"
-    },
-    "IME-412": {
-      "tag": "IME-412",
-      "name": "Applied Control Systems Design",
-      "coreqs": "None",
-      "prereqs": "MECH-100 and (IME-211 or ECE-101 or CS-101)",
-      "standing": "Junior 2",
-      "desc": "A course designed to introduce students to various computer-controlled systems used for industrial automation including data collection, analysis and reporting. Various hardware, software, sensors, and human resources required to implement effective control systems will be studied. Students will be engaged in hands-on laboratory exercises requiring them to configure and write programs and design systems to solve various assigned problems through individual and/or group efforts. Modern techniques for Industry 4.0 such as data management for predictive maintenance and artificial intelligence will also be explored. ",
-      "sections": {
-        "01": {
-          "instructor": "Watchorn, Andrew",
-          "time": "8:00-9:30am",
-          "date": "T, F",
-          "building": "AB",
-          "room": "1210",
-          "avail": 24
         }
       },
       "credits": "4"
@@ -1839,8 +1801,8 @@
       "sections": {
         "01": {
           "instructor": "Maier, Torsten",
-          "time": "3:35-5:40pm",
-          "date": "W",
+          "time": "3:35-5:05pm",
+          "date": "T, F",
           "building": "AB",
           "room": "1210",
           "avail": 24
@@ -2220,7 +2182,7 @@
           "date": "M, T, W, R, F",
           "building": "AB",
           "room": "1819",
-          "avail": 36
+          "avail": 22
         },
         "02": {
           "instructor": "STAFF",
@@ -2228,7 +2190,7 @@
           "date": "M, T, W, R, F",
           "building": "AB",
           "room": "2225",
-          "avail": 36
+          "avail": 22
         }
       },
       "credits": "4"
@@ -2247,7 +2209,7 @@
           "date": "M, T, R, F",
           "building": "AB",
           "room": "2759",
-          "avail": 36
+          "avail": 22
         }
       },
       "credits": "4"
@@ -2266,7 +2228,7 @@
           "date": "M, T, W, R, F",
           "building": "AB",
           "room": "2225",
-          "avail": 36
+          "avail": 22
         },
         "02": {
           "instructor": "STAFF",
@@ -2274,7 +2236,7 @@
           "date": "M, T, W, R, F",
           "building": "AB",
           "room": "3338",
-          "avail": 36
+          "avail": 22
         }
       },
       "credits": "4"
@@ -2293,7 +2255,7 @@
           "date": "M, T, R, F",
           "building": "AB",
           "room": "4101",
-          "avail": 36
+          "avail": 22
         }
       },
       "credits": "4"
@@ -2312,15 +2274,15 @@
           "date": "M, T, W, R, F",
           "building": "AB",
           "room": "3333",
-          "avail": 36
+          "avail": 22
         },
         "02": {
           "instructor": "STAFF",
-          "time": "9:00-10:05am",
+          "time": "9:05-10:05am",
           "date": "M, T, W, R, F",
           "building": "AB",
           "room": "4101",
-          "avail": 36
+          "avail": 22
         }
       },
       "credits": "4"
@@ -2335,11 +2297,11 @@
       "sections": {
         "01": {
           "instructor": "STAFF",
-          "time": "9:00-10:05am",
+          "time": "9:05-10:05am",
           "date": "M, T, R, F",
           "building": "AB",
           "room": "2761",
-          "avail": 36
+          "avail": 22
         }
       },
       "credits": "4"
@@ -2358,7 +2320,7 @@
           "date": "M, T, W, R, F",
           "building": "AB",
           "room": "1815",
-          "avail": 36
+          "avail": 22
         },
         "02": {
           "instructor": "STAFF",
@@ -2366,7 +2328,7 @@
           "date": "M, T, W, R, F",
           "building": "AB",
           "room": "4309",
-          "avail": 36
+          "avail": 22
         }
       },
       "credits": "4"
@@ -2385,7 +2347,7 @@
           "date": "M, T, R, F",
           "building": "AB",
           "room": "3338",
-          "avail": 36
+          "avail": 22
         },
         "02": {
           "instructor": "STAFF",
@@ -2393,7 +2355,7 @@
           "date": "M, T, R, F",
           "building": "AB",
           "room": "3338",
-          "avail": 36
+          "avail": 22
         }
       },
       "credits": "4"
@@ -2412,7 +2374,7 @@
           "date": "M, R",
           "building": "AB",
           "room": "4103",
-          "avail": 36
+          "avail": 22
         },
         "02": {
           "instructor": "STAFF",
@@ -2420,7 +2382,7 @@
           "date": "T, F",
           "building": "AB",
           "room": "2716",
-          "avail": 36
+          "avail": 22
         },
         "03": {
           "instructor": "STAFF",
@@ -2428,7 +2390,7 @@
           "date": "M, R",
           "building": "AB",
           "room": "1819",
-          "avail": 36
+          "avail": 22
         }
       },
       "credits": "4"
@@ -2479,25 +2441,6 @@
       },
       "credits": "4"
     },
-    "MATH-308": {
-      "tag": "MATH-308",
-      "name": "Abstract Algebra",
-      "coreqs": "None",
-      "prereqs": "(MATH-307) or (CS-211 and MATH-101) or (CS-211 and MATH-101X)",
-      "standing": "Sophomore",
-      "desc": "Students will learn topics in modern algebra and will practice proof techniques. Topics will include: congruence classes, modular arithmetic, groups, subgroups, normal subgroups, Lagrange’s theorem, rings, subrings, ideals, quotient rings, isomorphisms and homomorphisms, polynomial arithmetic, fields, divisors, factorization, and proofs of the main theorems. The course is required for mathematics majors and is also useful in cryptography and quantum physics.",
-      "sections": {
-        "01": {
-          "instructor": "STAFF",
-          "time": "1:20-3:25pm",
-          "date": "M, R",
-          "building": "AB",
-          "room": "4309",
-          "avail": 36
-        }
-      },
-      "credits": "4"
-    },
     "MATH-313": {
       "tag": "MATH-313",
       "name": "Boundary Value Problems",
@@ -2512,25 +2455,6 @@
           "date": "M, T, R, F",
           "building": "AB",
           "room": "2225",
-          "avail": 36
-        }
-      },
-      "credits": "4"
-    },
-    "MATH-360": {
-      "tag": "MATH-360",
-      "name": "Life Contingencies I",
-      "coreqs": "None",
-      "prereqs": "MATH-350",
-      "standing": "Junior",
-      "desc": "This course is an introduction to life insurance mathematics based on a stochastic approach. This course is to develop a student’s knowledge of the theoretical basis of certain actuarial models and the application of those models to insurance and other financial risks. Definitions of key terms will be studied, including actuarial present value, survival model, life insurance, annuities, and benefit premiums.",
-      "sections": {
-        "01": {
-          "instructor": "STAFF",
-          "time": "3:35-5:40pm",
-          "date": "T, F",
-          "building": "AB",
-          "room": "2761",
           "avail": 36
         }
       },
@@ -2554,25 +2478,6 @@
         }
       },
       "credits": "4"
-    },
-    "MATH-427": {
-      "tag": "MATH-427",
-      "name": "Statistical Inference &  Modeling",
-      "coreqs": "None",
-      "prereqs": "MATH-327",
-      "standing": "Sophomore I",
-      "desc": "A study of statistics including point and interval estimation, consistency and sufficiency, Minimum Variance Unbiased Estimators, Uniformly Most Powerful tests, likelihood ratio tests, goodness of fit tests, an introduction to non-parametric methods. Linear models, including regression analysis and Analysis of Variance are included. Programming in R will be introduced and used throughout the course.",
-      "sections": {
-        "01": {
-          "instructor": "STAFF",
-          "time": "8:00-10:05am",
-          "date": "T, F",
-          "building": "AB",
-          "room": "3333",
-          "avail": 30
-        }
-      },
-      "credits": "4"
     }
   },
   "MECH": {
@@ -2585,7 +2490,7 @@
       "desc": "This computer aided design and drafting course is an introduction to engineering graphics and visualization with topics to include sketching, line drawing, wire-frame section development and elements of solid modeling. Also, this course will include the development and interpretation of drawings and specifications for product realization. CAD, office, and web-based software will be used in student presentations and analysis.",
       "sections": {
         "01": {
-          "instructor": "STAFF",
+          "instructor": "Eddy, Kent",
           "time": "10:15-12:20pm",
           "date": "M, W, R",
           "building": "MC",
@@ -2593,7 +2498,7 @@
           "avail": 32
         },
         "02": {
-          "instructor": "STAFF",
+          "instructor": "Eddy, Kent",
           "time": "1:20-3:25pm",
           "date": "M, W, R",
           "building": "MC",
@@ -2612,7 +2517,7 @@
       "desc": "This course deals with a discussion and application of the following fundamental concepts: (1) static force analysis of particles, rigid bodies, plane trusses, frames, and machines; (2) first and second moments of area; (3) friction; (4) internal forces; and (5) stress deflection analysis of axially loaded members. Topics covered will be (1) the static force and moment equilibrium of two and three dimensional systems; (2) resultant forces and moments due to the application of concentrated and/or distributed loads; (3) couples; (4) the center of mass and the area moment of inertia of a rigid body; (5) shear force and bending moment diagrams of a rigid body; and (6) the stress and deflection analyses of axially loaded members. Free body diagrams will be formulated in a computer-aided environment in order to enhance the students’ critical thinking and problem solving capabilities. Several open-ended homework and mini projects will be assigned in order to incorporate a design experience in the course.",
       "sections": {
         "02": {
-          "instructor": "STAFF",
+          "instructor": "Hargrove, Jeffrey",
           "time": "3:35-5:40pm",
           "date": "M, R",
           "building": "MC",
@@ -2620,7 +2525,7 @@
           "avail": 32
         },
         "01": {
-          "instructor": "STAFF",
+          "instructor": "Hargrove, Jeffrey",
           "time": "10:15-12:20pm",
           "date": "M, R",
           "building": "AB",
@@ -2639,19 +2544,19 @@
       "desc": "The fundamental topics of this course include: normal and shear stress and strain, Hooke’s law, Poisson’s ratio, generalized Hooke’s law, axial translation, torsion of circular bars, angle of twist, bending of beams, flexure formula, flexural shear stress, beam deflections, combined stresses, transformation of stresses, Mohr’s circle, statically indeterminate problems, columns. The use of basic computational tools will be introduced at the end of several lecture modules including: axial loading, torsional loading, and flexural loading. Homework and design projects will be assigned.",
       "sections": {
         "01": {
-          "instructor": "STAFF",
+          "instructor": "Dong, Yaomin",
           "time": "1:20-3:25pm",
-          "date": "M, R",
+          "date": "T, F",
           "building": "AB",
-          "room": "1817",
+          "room": "2911",
           "avail": 32
         },
         "02": {
-          "instructor": "STAFF",
+          "instructor": "Dong, Yaomin",
           "time": "10:15-12:20pm",
-          "date": "M, R",
+          "date": "T, F",
           "building": "AB",
-          "room": "1817",
+          "room": "2911",
           "avail": 32
         }
       },
@@ -2666,7 +2571,7 @@
       "desc": "This lab complements the electrical engineering course, EE-212, and provides the necessary knowledge and skills of electrical engineering to non-electrical engineering majors. It teaches students how to use sensors and instruments to make meaningful measurements in mechanical and electrical engineering systems. This lab course introduces students to: (1) the laws and methods of circuit analysis (2) sensors used in measurements of displacement, temperature, strain and fuel cell systems and (3) the amplifiers and other instrumentation used to process the signals from these sensors.",
       "sections": {
         "01": {
-          "instructor": "STAFF",
+          "instructor": "Lemke, Brenda",
           "time": "3:35-5:40pm",
           "date": "W",
           "building": "MC",
@@ -2674,9 +2579,17 @@
           "avail": 16
         },
         "02": {
-          "instructor": "STAFF",
+          "instructor": "Lemke, Brenda",
           "time": "1:20-3:25pm",
           "date": "W",
+          "building": "MC",
+          "room": "2234",
+          "avail": 16
+        },
+        "03": {
+          "instructor": "Lemke, Brenda",
+          "time": "1:20-3:25pm",
+          "date": "R",
           "building": "MC",
           "room": "2234",
           "avail": 16
@@ -2693,7 +2606,7 @@
       "desc": "This is a threaded continuation of MECH-100, Engineering Graphical Communication using computer graphics and computer aided design techniques. These advanced techniques use graphics primitives, construction functions, transformations, image control, dimensioning and layers. Both two-dimensional drawings and three-dimensional wireframe, surface modeling, and simulation modeling such as FEA and kinematic motion are covered.",
       "sections": {
         "01": {
-          "instructor": "STAFF",
+          "instructor": "Mazzei Jr., Arnaldo",
           "time": "8:00-10:05am",
           "date": "M, R",
           "building": "MC",
@@ -2701,7 +2614,7 @@
           "avail": 18
         },
         "02": {
-          "instructor": "STAFF",
+          "instructor": "Mazzei Jr., Arnaldo",
           "time": "1:20-3:25pm",
           "date": "M, R",
           "building": "MC",
@@ -2720,7 +2633,7 @@
       "desc": "This course will develop the skills of identifying appropriate materials for a given design by considering mechanical properties which are based on experimental data. The manner in which processing can be used to engineer a material for specific applications will be explored. The mechanical performance of materials will be assessed by comparing a range of properties; strength, modulus, Poisson's ration, coefficient of thermal expansion, ductility, toughness, corrosivity, and others. Students will learn which properties can and cannot be engineered to meet a specific need via alloying and/or heat treating.",
       "sections": {
         "01": {
-          "instructor": "STAFF",
+          "instructor": "Sullivan, Laura",
           "time": "10:15-12:20pm",
           "date": "T, F",
           "building": "AB",
@@ -2728,7 +2641,7 @@
           "avail": 32
         },
         "02": {
-          "instructor": "STAFF",
+          "instructor": "Sullivan, Laura",
           "time": "3:35-5:40pm",
           "date": "T, F",
           "building": "AB",
@@ -2747,7 +2660,7 @@
       "desc": "This course deals with a discussion and application of the following fundamental concepts: (1) application and basics of Newtonian mechanics and physical laws; (2) a study of the kinematics and kinetics of a particle including relative and absolute motion, friction concepts; (3) additional analysis of particle dynamics using work-energy and impulse-momentum methods, analysis of impact events; (4) analysis of a system of particle using work-energy, impulse, linear and angular momentum; (5) kinematics and kinetics of a rigid bodies analyzed in various reference systems; (6) additional analysis of rigid body dynamics using work-energy and impulse-momentum; (7) inertia quantities. Computational techniques will be incorporated into several design projects throughout the semester to illustrate alternative solution methods.",
       "sections": {
         "01": {
-          "instructor": "STAFF",
+          "instructor": "Baqersad, Javad",
           "time": "8:00-10:05am",
           "date": "T, F",
           "building": "MC",
@@ -2755,7 +2668,7 @@
           "avail": 32
         },
         "02": {
-          "instructor": "STAFF",
+          "instructor": "Baqersad, Javad",
           "time": "3:35-5:40pm",
           "date": "T, F",
           "building": "MC",
@@ -2774,7 +2687,7 @@
       "desc": "The objective of the course is to teach fundamentals of machine elements and mechatronics design, with an emphasis on product design and fabrication. Design, analysis and fabrication of prototype mechatronic systems and devices are completed. Mechanical designs concepts including transmission methods, force and torque analysis, mechanisms and simulation is covered. Formal design processes such as brainstorming and concept-tree development are utilized. Intellectual property law pertinent to design and invention is covered. The synergistic combination of sensors, actuators and controls technologies to create functionally “smart” and adaptive devices is implemented. Sensors and actuator technologies are covered. The course culminates with an open-ended project to design and fabricate a mechatronic system using basic machining equipment and a programmable controller.",
       "sections": {
         "02": {
-          "instructor": "STAFF",
+          "instructor": "George, Christopher",
           "time": "3:35-5:40pm",
           "date": "T, F",
           "building": "MC",
@@ -2782,7 +2695,7 @@
           "avail": 18
         },
         "01": {
-          "instructor": "STAFF",
+          "instructor": "George, Christopher",
           "time": "1:20-3:25pm",
           "date": "T, F",
           "building": "MC",
@@ -2801,7 +2714,7 @@
       "desc": "This course involves application of theory and techniques learned in the mechanics courses to the concepts of mechanical component design. Through lectures and class example and homework problems the student will be introduced to design methodology. This methodology requires learning to develop and set-up a mechanical component design problem, through properly understanding and solving the problem based upon the given data, design constraints, making and verifying assumptions. Selection of the proper analytical tools as required, producibility and maintainability of the design, materials selection, safety, and cost considerations. Take-home project problems will enhance and demonstrate the type of study and research required for design. Topics to be studied include strength and fatigue considerations, shaft design, threaded fasteners, lubrication and bearings, springs, and fundamentals of gear analysis, including forces, stresses and terminology.",
       "sections": {
         "01": {
-          "instructor": "STAFF",
+          "instructor": "Tavakoli, Massoud",
           "time": "10:15-12:20pm",
           "date": "M, R",
           "building": "MC",
@@ -2809,7 +2722,7 @@
           "avail": 32
         },
         "02": {
-          "instructor": "STAFF",
+          "instructor": "Tavakoli, Massoud",
           "time": "3:35-5:40pm",
           "date": "M, R",
           "building": "MC",
@@ -2828,7 +2741,7 @@
       "desc": "A study of the first and second laws of thermodynamics and their application to energy transformations during various processes. Property relations are studied for pure substances, ideal gases, mixture of ideal gases, and atmospheric air. Steam power cycles, refrigeration cycles, spark-ignition and compression-ignition engines, and turbine cycles are evaluated to determine performance parameters and energy efficiencies.",
       "sections": {
         "01": {
-          "instructor": "STAFF",
+          "instructor": "AbdulNour, Bashar",
           "time": "10:15-12:20pm",
           "date": "T, F",
           "building": "MC",
@@ -2836,7 +2749,7 @@
           "avail": 32
         },
         "02": {
-          "instructor": "STAFF",
+          "instructor": "AbdulNour, Bashar",
           "time": "1:20-3:25pm",
           "date": "T, F",
           "building": "MC",
@@ -2855,7 +2768,7 @@
       "desc": "This is a first course in Fluid Mechanics that involves the study of fluid flow in ducts and over objects. The course introduces the fundamental aspects of fluid motion, fluid properties, flow regimes, pressure variations, fluid kinematics, and methods of flow description and analysis. Presents the conservation laws in their differential and integral forms, and their use in analyzing and solving fluid flow problems. In addition, the concept of using similitude and dimensional analysis for organizing test data and for planning experiments is introduced. The effects of fluid friction on pressure and velocity distributions are also discussed. The effects of compressibility (various density) on fluid flows are also included.",
       "sections": {
         "02": {
-          "instructor": "STAFF",
+          "instructor": "Hoff, Craig",
           "time": "10:15-12:20pm",
           "date": "T, F",
           "building": "AB",
@@ -2863,7 +2776,7 @@
           "avail": 32
         },
         "01": {
-          "instructor": "STAFF",
+          "instructor": "Hoff, Craig",
           "time": "3:35-5:40pm",
           "date": "T, F",
           "building": "AB",
@@ -2882,7 +2795,7 @@
       "desc": "This is the first course in System Dynamics. The objective of this course is to provide an understanding into basic principles and methods underlying the time domain, dynamic characterization of physical systems and components. The focus is on a multi-discipline approach. Construction of mathematical models of systems using energy, power Bond-graph, and state space models is emphasized. Application of modeling techniques to understanding the behavior of free vibration (damped and undamped), forced vibration for harmonic excitation, and systems involving multi-degrees of freedom will be discussed. MECH-331 must be taken concurrently (or previously passed) with this course.",
       "sections": {
         "01": {
-          "instructor": "STAFF",
+          "instructor": "Peters, Diane",
           "time": "8:00-9:30am",
           "date": "M, R",
           "building": "MC",
@@ -2890,7 +2803,7 @@
           "avail": 24
         },
         "02": {
-          "instructor": "STAFF",
+          "instructor": "Peters, Diane",
           "time": "10:15-11:45am",
           "date": "M, R",
           "building": "MC",
@@ -2909,7 +2822,7 @@
       "desc": "MECH-330 with MECH-331 is the first course in System Dynamics. MECH-331 provides an understanding into basic principles and methods underlying the development and analysis of mathematical models in the time domain. Construction of mathematical models of systems using MATLAB and Simulink is emphasized. Application of modeling techniques, design characteristics and analysis of first and second order systems is stressed. MECH-330 must be taken concurrently (or previously passed) with this course.",
       "sections": {
         "02": {
-          "instructor": "STAFF",
+          "instructor": "Peters, Diane",
           "time": "3:35-5:40pm",
           "date": "W",
           "building": "MC",
@@ -2917,7 +2830,7 @@
           "avail": 16
         },
         "01": {
-          "instructor": "STAFF",
+          "instructor": "George, Christopher",
           "time": "10:15-12:20pm",
           "date": "W",
           "building": "MC",
@@ -2925,7 +2838,7 @@
           "avail": 16
         },
         "03": {
-          "instructor": "STAFF",
+          "instructor": "George, Christopher",
           "time": "1:20-3:25pm",
           "date": "W",
           "building": "MC",
@@ -2944,7 +2857,7 @@
       "desc": "This course addresses the principles of heat transfer by conduction, convection, radiation and energy conservation, fins, steady-state and transient problems, and analysis and selection of heat exchangers. ",
       "sections": {
         "02": {
-          "instructor": "STAFF",
+          "instructor": "Nasr, Karim",
           "time": "3:35-5:40pm",
           "date": "T, F",
           "building": "MC",
@@ -2952,7 +2865,7 @@
           "avail": 32
         },
         "01": {
-          "instructor": "STAFF",
+          "instructor": "Nasr, Karim",
           "time": "10:15-12:20pm",
           "date": "T, F",
           "building": "MC",
@@ -2971,7 +2884,7 @@
       "desc": "A laboratory course dealing with the detailed application of the first and second laws of thermodynamics; continuity, momentum, and energy equations; and principles of conduction, and convection to a variety of energy systems. Topics such as internal and external flows, refrigeration, psychrometrics, aerodynamic lift and drag, pump and fan performance, compressible flow and shock waves, free and forced convection, and heat exchangers are covered. Computational fluid dynamics (CFD), automatic data acquisition, flow visualization, and a design experience are incorporated into various laboratory experiments.",
       "sections": {
         "01": {
-          "instructor": "STAFF",
+          "instructor": "Pourmovahed, Ahmad",
           "time": "1:20-3:25pm",
           "date": "W",
           "building": "AB",
@@ -2979,7 +2892,7 @@
           "avail": 42
         },
         "02L": {
-          "instructor": "STAFF",
+          "instructor": "Pourmovahed, Ahmad",
           "time": "3:35-5:40pm",
           "date": "T, F",
           "building": "MC",
@@ -2987,9 +2900,17 @@
           "avail": 14
         },
         "03L": {
-          "instructor": "STAFF",
+          "instructor": "Pourmovahed, Ahmad",
           "time": "1:20-3:25pm",
           "date": "T, F",
+          "building": "MC",
+          "room": "2230A",
+          "avail": 14
+        },
+        "04L": {
+          "instructor": "Pourmovahed, Ahmad",
+          "time": "1:20-3:25pm",
+          "date": "M, R",
           "building": "MC",
           "room": "2230A",
           "avail": 14
@@ -3006,9 +2927,9 @@
       "desc": "This course provides an opportunity for the students to study bio and renewable energy and their applications around the globe. The students also perform hands-on experiments in several areas of sustainable energy. The fundamental principles required will be provided prior to laboratory experimentation. Topics covered include bur are not limited to solar thermal energy and photovoltaics, wind energy, energy storage, bioenergy used for power, transportation and heating, PEM fuel cells, and alternative energy vehicles.",
       "sections": {
         "01": {
-          "instructor": "STAFF",
+          "instructor": "Lemke, Brenda",
           "time": "3:35-5:40pm",
-          "date": "T, F",
+          "date": "M, R",
           "building": "MC",
           "room": "2240",
           "avail": 24
@@ -3025,7 +2946,7 @@
       "desc": "This is the second course in System Dynamics. The objective of this course is to build upon previous knowledge of multi-discipline system modeling to understand basic principles and design methods underlying steady-state and dynamic analysis of control systems. Construction of higher-order mathematical models of systems using Bond-graphs, block diagrams and development of transfer functions and state space models are used to model the plant (system being controlled). System performance is analyzed in both time and frequency domains using computer simulation. Classical control system design with both feed-forward and feedback configurations are emphasized. Introduction to advanced topics in control systems are also provided. MECH-431 must be taken concurrently (or previously passed) with this course.",
       "sections": {
         "02": {
-          "instructor": "STAFF",
+          "instructor": "Brinker Brouwer, Kristy",
           "time": "8:00-9:30am",
           "date": "M, R",
           "building": "MC",
@@ -3033,7 +2954,7 @@
           "avail": 24
         },
         "01": {
-          "instructor": "STAFF",
+          "instructor": "Brinker Brouwer, Kristy",
           "time": "10:15-11:45am",
           "date": "M, R",
           "building": "MC",
@@ -3052,7 +2973,7 @@
       "desc": "MECH-430 and MECH-431 combined are a second course in System Dynamics. MECH-431 provides an understanding of time and frequency domain analysis of mathematical models. Simulation and analysis of mathematical models using MATLAB and Simulink are emphasized. Mathematical model validation is explored using hardware (e.g. DC Motors). Control system design and verification are explored using simulation and hardware (e.g. DC Motors). MECH-430 must be taken concurrently (or previously passed) with this course.",
       "sections": {
         "03": {
-          "instructor": "STAFF",
+          "instructor": "Brinker Brouwer, Kristy",
           "time": "8:00-10:05am",
           "date": "T",
           "building": "MC",
@@ -3060,7 +2981,7 @@
           "avail": 16
         },
         "01": {
-          "instructor": "STAFF",
+          "instructor": "Brinker Brouwer, Kristy",
           "time": "1:20-3:25pm",
           "date": "T",
           "building": "MC",
@@ -3068,8 +2989,8 @@
           "avail": 16
         },
         "02": {
-          "instructor": "STAFF",
-          "time": "6:00-8:00pm",
+          "instructor": "Brinker Brouwer, Kristy",
+          "time": "10:15-12:20pm",
           "date": "T",
           "building": "MC",
           "room": "2240",
@@ -3087,7 +3008,7 @@
       "desc": "The objective of this course is to provide a comprehensive experience in the area of automotive chassis engineering. The course covers tires, suspensions and steering. A vehicle system approach is used for learning. Vehicle dynamics concepts and improvement approaches are integrated into the course content. Professional computer-aided engineering tools are introduced (e.g. CarSim, SuspensionSim) and applied to the areas of suspension analysis and overall vehicle dynamics performance. Students work in teams to complete a chassis design project applicable to passenger cars or light trucks.",
       "sections": {
         "01": {
-          "instructor": "STAFF",
+          "instructor": "Mazzei Jr., Arnaldo",
           "time": "10:15-12:20pm",
           "date": "M, R",
           "building": "MC",
@@ -3106,31 +3027,12 @@
       "desc": "This course provides an engineering project experience that is representative of automotive industry projects, except it is scaled down such that it can be performed in one school term. The project begins with setting specific and measurable goals in a project statement. This is followed by researching and brainstorming, producing design alternatives, selecting concepts, and developing and analyzing concepts. Project updates are required throughout the course. A mid-term and final oral presentation are mandatory, along with the submission of a final written report. This course satisfies the ME Senior Design Project requirement.",
       "sections": {
         "01": {
-          "instructor": "STAFF",
+          "instructor": "AbdulNour, Bashar",
           "time": "3:35-5:40pm",
           "date": "T, F",
           "building": "MC",
           "room": "1107",
           "avail": 16
-        }
-      },
-      "credits": "4"
-    },
-    "MECH-451": {
-      "tag": "MECH-451",
-      "name": "Vehicular Crash Dynamics and Accident Reconstruction",
-      "coreqs": "None",
-      "prereqs": "MECH-310",
-      "standing": "Freshman",
-      "desc": "A discussion and application of the following fundamental concepts: (1) 2D and 3D dynamics of vehicular crash, (2) application of linear and angular momentum principles to vehicular impact, (3) application of energy principle to vehicular impact, (4) estimation of crash energy from vehicular crush profile, (5) vehicular crash pulse analysis, (6) occupant kinematics, (7) dynamics of rollover and pole collision, (8) crash data recorder (CDR) analysis, (9) and special topics in accident investigation forensics.",
-      "sections": {
-        "01": {
-          "instructor": "STAFF",
-          "time": "6:00-8:00pm",
-          "date": "M, R",
-          "building": "MC",
-          "room": "2116",
-          "avail": 14
         }
       },
       "credits": "4"
@@ -3144,11 +3046,11 @@
       "desc": "The properties, mechanics, and design simulation aspects of fiber-reinforced composite materials are covered in this course. Topics include: constituents and interfacial bonding, microstructure and micromechanics, theory of anisotropy, classical laminate theory, material characterization, failure and damage, manufacturing techniques, composite structure design, and introduction of nanocomposite.",
       "sections": {
         "01": {
-          "instructor": "STAFF",
-          "time": "1:20-3:25pm",
-          "date": "M, R",
+          "instructor": "Dong, Yaomin",
+          "time": "3:35-5:40pm",
+          "date": "T, F",
           "building": "MC",
-          "room": "1107",
+          "room": "1106",
           "avail": 14
         }
       },
@@ -3163,15 +3065,15 @@
       "desc": "The objective of this course is to provide a comprehensive capstone design experience that includes a design project in mechanical systems, or dynamic systems, or energy systems, based on knowledge and skills acquired in earlier coursework. The project begins with setting specific and measurable goals in a project statement. This is followed by researching and brainstorming, producing design alternatives, selecting concepts, and developing and analyzing concepts. Students work in teams to design and develop a prototype or a conceptual design to meet given specifications and to incorporate relevant engineering standards. Project updates are required throughout the course. ",
       "sections": {
         "01": {
-          "instructor": "STAFF",
-          "time": "10:15-12:20pm",
+          "instructor": "Hoff, Craig",
+          "time": "1:20-3:25pm",
           "date": "T, F",
           "building": "MC",
           "room": "1106",
           "avail": 16
         },
         "02": {
-          "instructor": "STAFF",
+          "instructor": "Nasr, Karim",
           "time": "1:20-3:25pm",
           "date": "T, F",
           "building": "MC",
@@ -3214,7 +3116,7 @@
       "sections": {
         "01": {
           "instructor": "STAFF",
-          "time": "1:20-3:25pm",
+          "time": "3:35-5:40pm",
           "date": "M, R",
           "building": "AB",
           "room": "4310",
@@ -3238,7 +3140,7 @@
           "time": "10:15-12:20pm",
           "date": "M, R",
           "building": "AB",
-          "room": "2911",
+          "room": "3333",
           "avail": 32
         },
         "02": {
@@ -3246,7 +3148,7 @@
           "time": "8:00-10:05am",
           "date": "T, F",
           "building": "AB",
-          "room": "2907",
+          "room": "3333",
           "avail": 32
         }
       },
@@ -3456,10 +3358,10 @@
       "sections": {
         "01": {
           "instructor": "STAFF",
-          "time": "8:00-10:05am",
+          "time": "10:15-12:20pm",
           "date": "T, F",
           "building": "AB",
-          "room": "4310",
+          "room": "4305",
           "avail": 20
         }
       },
