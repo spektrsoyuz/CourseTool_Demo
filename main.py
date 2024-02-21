@@ -3,28 +3,10 @@ main.py
 Created by Seth Christie on 2/4/2024
 """
 import yaml
-import sv_ttk
-import tkinter as tk
-from tkinter import ttk
-from ctypes import windll
-
 import course_functions as cf
-import tk_interface as tki
-
-# Constants
-APP_NAME = 'Course Tool'
-APP_WIDTH = 400
-APP_HEIGHT = 600
 
 
 # --------------------------------------------------- functions --------------------------------------------------------
-
-def close_window():
-    """
-    Function to close the application window
-    :return: None
-    """
-    app.destroy()
 
 
 def readConfig(filename):
@@ -64,57 +46,8 @@ def runScript():
     cf.exportCourses(me_electives, 'yaml', 'Exports/s24_mechelv.yml')
 
 
-# ---------------------------------------------------- classes ---------------------------------------------------------
-
-
-class AppButton(ttk.Frame):
-    """
-    This class represents a Custom Frame for displaying a Button.
-    """
-
-    def __init__(self, parent, text="", command=None, style=None, height=0, width=0):
-        ttk.Frame.__init__(self, parent, height=height, width=width, style="TButton")
-
-        self.pack_propagate(False)
-        self._btn = ttk.Button(self, text=text, command=command, style=style)
-        self._btn.pack(fill=tk.BOTH, expand=1)
-
-
-class App(tk.Tk):
-    """
-    This class represents the Application container as a whole, which is responsible for displaying the Application's
-    user interface.
-    """
-
-    def __init__(self):
-        super().__init__()
-
-        # Configure the root window
-        self.title(APP_NAME)
-        self.resizable(False, False)
-
-        # Center window and set dimensions
-        x = int((self.winfo_screenwidth() / 2) - (APP_WIDTH / 2))
-        y = int((self.winfo_screenheight() / 2) - (APP_HEIGHT / 2))
-        self.geometry(f'{APP_WIDTH}x{APP_HEIGHT}+{x}+{y}')
-
-        # Set theme
-        sv_ttk.set_theme("dark")
-
-        # Add frames to application
-        tki.MainFrame(self)
-
-
 # ----------------------------------------------------- main -----------------------------------------------------------
 
 if __name__ == '__main__':
     # Run script
-    # runScript()
-
-    # Configure Application
-    app = App()
-    app.protocol("WM_DELETE_WINDOW", close_window)
-    windll.shcore.SetProcessDpiAwareness(1)
-
-    # Start app
-    app.mainloop()
+    runScript()
