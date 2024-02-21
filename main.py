@@ -6,7 +6,10 @@ import yaml
 import sv_ttk
 import tkinter as tk
 from tkinter import ttk
+from ctypes import windll
+
 import course_functions as cf
+import tk_interface as tki
 
 # Constants
 APP_NAME = 'Course Tool'
@@ -39,39 +42,50 @@ def readConfig(filename):
     return [undergrad_catalog, grad_catalog, undergrad_url, grad_url]
 
 
+def runScript():
+    config = readConfig('config.yml')
+
+    # Run the script to fetch and parse course data
+    undergradData = cf.getCourseData('summer24_all.csv', config[0], config[2], False)
+    gradData = cf.getCourseData('summer24_grad.csv', config[1], config[3], False)
+
+    # Export undergrad/grad course data
+    cf.exportCourses(undergradData, 'json', 'Exports/s24_undergrad.json')
+    cf.exportCourses(undergradData, 'xlsx', 'Exports/s24_undergrad.xlsx')
+    cf.exportCourses(gradData, 'json', 'Exports/s24_grad.json')
+    cf.exportCourses(gradData, 'xlsx', 'Exports/s24_grad.xlsx')
+
+    # Parse ME Electives from terms
+    me_electives = cf.getMEElectives('Exports/s24_undergrad.json')
+
+    # Export ME Electives
+    cf.exportCourses(me_electives, 'json', 'Exports/s24_mechelv.json')
+    cf.exportCourses(me_electives, 'xlsx', 'Exports/s24_mechelv.xlsx')
+    cf.exportCourses(me_electives, 'yaml', 'Exports/s24_mechelv.yml')
+
+
 # ---------------------------------------------------- classes ---------------------------------------------------------
 
 
 class AppButton(ttk.Frame):
-    def __init__(self, parent, text="", command=None, style=None):
-        ttk.Frame.__init__(self, parent, height=40, width=250, style="TButton")
+    """
+    This class represents a Custom Frame for displaying a Button.
+    """
+
+    def __init__(self, parent, text="", command=None, style=None, height=0, width=0):
+        ttk.Frame.__init__(self, parent, height=height, width=width, style="TButton")
 
         self.pack_propagate(False)
         self._btn = ttk.Button(self, text=text, command=command, style=style)
         self._btn.pack(fill=tk.BOTH, expand=1)
 
 
-class MainFrame(ttk.Frame):
-    def __init__(self, container):
-        super().__init__(container)
-
-        options = {'padx': 2.5, 'pady': 2.5}
-
-        # Configure style
-        style = ttk.Style()
-        style.configure('TButton', font=('Calibri', '14', 'normal'))
-
-        # Buttons
-        self.button_example = AppButton(self, 'Example Button', style='TButton')
-
-        # Pack widgets onto frame
-        self.button_example.grid(**options, column=0, row=0)
-
-        # Pack frame onto container
-        self.pack(**options)
-
-
 class App(tk.Tk):
+    """
+    This class represents the Application container as a whole, which is responsible for displaying the Application's
+    user interface.
+    """
+
     def __init__(self):
         super().__init__()
 
@@ -87,36 +101,20 @@ class App(tk.Tk):
         # Set theme
         sv_ttk.set_theme("dark")
 
+        # Add frames to application
+        tki.MainFrame(self)
+
 
 # ----------------------------------------------------- main -----------------------------------------------------------
 
 if __name__ == '__main__':
-    config = readConfig('config.yml')
-
-    '''
-    # Run the script to fetch and parse course data
-    undergradData = cf.getCourseData('summer24_all.csv', config[0], config[2], False)
-    gradData = cf.getCourseData('summer24_grad.csv', config[1], config[3], False)
-
-    # Export undergrad/grad course data
-    cf.exportCourses(undergradData, 'json', 'Exports/s24_undergrad.json')
-    cf.exportCourses(undergradData, 'xlsx', 'Exports/s24_undergrad.xlsx')
-    cf.exportCourses(gradData, 'json', 'Exports/s24_grad.json')
-    cf.exportCourses(gradData, 'xlsx', 'Exports/s24_grad.xlsx')
-
-    # Parse ME Electives from term
-    me_electives = cf.getMEElectives('Exports/s24_undergrad.json')
-
-    # Export ME Electives
-    cf.exportCourses(me_electives, 'json', 'Exports/s24_mechelv.json')
-    cf.exportCourses(me_electives, 'xlsx', 'Exports/s24_mechelv.xlsx')
-    cf.exportCourses(me_electives, 'yaml', 'Exports/s24_mechelv.yml')
-    '''
+    # Run script
+    # runScript()
 
     # Configure Application
     app = App()
     app.protocol("WM_DELETE_WINDOW", close_window)
-    frame = MainFrame(app)
+    windll.shcore.SetProcessDpiAwareness(1)
 
     # Start app
     app.mainloop()

@@ -128,7 +128,7 @@ def getCourseData(csvFile, catalog, catalogURL, includeAll):
                 # Dump courseblock into courses
                 courses[courseblocktitle[0]] = course
 
-            # Add course dictionary to final course list
+            # Add course dictionary to the final course list
             courseList[cat] = courses
 
     return courseList
